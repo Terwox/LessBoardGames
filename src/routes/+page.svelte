@@ -91,12 +91,15 @@
 		const bggIds = appState.games.map((g) => g.bggId);
 		if (bggIds.length === 0) return;
 
-		// Kick off background fetch
+		// Send full game list for name-prefix fallback analysis
+		const games = appState.games.map((g) => ({ bggId: g.bggId, name: g.name }));
+
+		// Kick off background fetch (tries API first, falls back to name-matching)
 		try {
 			await fetch('/api/bgg/expansions', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify({ bggIds })
+				body: JSON.stringify({ bggIds, games })
 			});
 		} catch {
 			// Non-critical

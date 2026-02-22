@@ -12,11 +12,11 @@ export const GET: RequestHandler = async () => {
 
 /** POST: Start background expansion fetch for given game IDs */
 export const POST: RequestHandler = async ({ request }) => {
-	const { bggIds } = await request.json();
+	const { bggIds, games } = await request.json();
 	if (!Array.isArray(bggIds) || bggIds.length === 0) {
 		return json({ error: 'bggIds array required' }, { status: 400 });
 	}
 
-	startBackgroundFetch(bggIds);
+	startBackgroundFetch(bggIds, games);
 	return json({ ok: true, status: getFetchStatus() });
 };
