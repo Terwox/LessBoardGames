@@ -1,4 +1,4 @@
-import type { Game, Decision, PendingWrite, SortMode, BoxDimensions } from './types';
+import type { Game, Decision, PendingWrite, SortMode, BoxDimensions, ExpansionLink } from './types';
 
 const CUBIC_INCHES_PER_CUBIC_FOOT = 1728;
 
@@ -19,6 +19,10 @@ function createAppState() {
 	let dimensionsFetching = $state(false);
 	let dimensionsFetched = $state(0);
 	let dimensionsTotal = $state(0);
+	let expansionOf = $state<Record<number, ExpansionLink[]>>({});
+	let expansionsFetching = $state(false);
+	let expansionsFetched = $state(0);
+	let expansionsTotal = $state(0);
 
 	const currentGame = $derived(queue[currentIndex] ?? null);
 	const reviewedCount = $derived(decisions.length);
@@ -45,6 +49,13 @@ function createAppState() {
 			? Math.round((games.filter((g) => g.bggId in dimensions).length / games.length) * 100)
 			: 0
 	);
+	const collectionBggIds = $derived(new Set(games.map((g) => g.bggId)));
+	const expansionCount = $derived(
+		games.filter((g) => {
+			const links = expansionOf[g.bggId];
+			return links && links.some((base) => collectionBggIds.has(base.bggId));
+		}).length
+	);
 
 	function buildQueue(sortMode: SortMode = 'default') {
 		const decided = new Set(decisions.map((d) => d.bggId));
@@ -62,19 +73,31 @@ function createAppState() {
 		currentIndex = 0;
 	}
 
+	function isExpansionInCollection(game: Game): boolean {
+		const links = expansionOf[game.bggId];
+		return !!links && links.some((base) => collectionBggIds.has(base.bggId));
+	}
+
 	function buildDefaultQueue(undecided: Game[]): Game[] {
 		const threeYearsAgo = new Date();
 		threeYearsAgo.setFullYear(threeYearsAgo.getFullYear() - 3);
 
+		// Separate expansions (of owned base games) from standalone games
+		const expansions = undecided
+			.filter((g) => isExpansionInCollection(g))
+			.sort((a, b) => a.name.localeCompare(b.name));
+		const expansionIds = new Set(expansions.map((g) => g.bggId));
+		const standalone = undecided.filter((g) => !expansionIds.has(g.bggId));
+
 		// Tier 1: Never played, oldest owned first
-		const neverPlayed = undecided
+		const neverPlayed = standalone
 			.filter((g) => g.playCount === 0)
 			.sort((a, b) => compareDates(a.dateAdded, b.dateAdded));
 
 		const neverPlayedIds = new Set(neverPlayed.map((g) => g.bggId));
 
 		// Tier 2: Played but not in 3+ years, lowest-rated first
-		const stale = undecided
+		const stale = standalone
 			.filter((g) => {
 				if (neverPlayedIds.has(g.bggId)) return false;
 				if (g.playCount === 0) return false;
@@ -86,11 +109,12 @@ function createAppState() {
 		const staleIds = new Set(stale.map((g) => g.bggId));
 
 		// Tier 3: Everything else by last-played ascending
-		const rest = undecided
+		const rest = standalone
 			.filter((g) => !neverPlayedIds.has(g.bggId) && !staleIds.has(g.bggId))
 			.sort((a, b) => compareDates(a.lastPlayed, b.lastPlayed));
 
-		return [...neverPlayed, ...stale, ...rest];
+		// Tier 4: Expansions of owned base games, alphabetical
+		return [...neverPlayed, ...stale, ...rest, ...expansions];
 	}
 
 	function compareDates(a: string | null, b: string | null): number {
@@ -148,6 +172,14 @@ function createAppState() {
 		set dimensionsFetched(v) { dimensionsFetched = v; },
 		get dimensionsTotal() { return dimensionsTotal; },
 		set dimensionsTotal(v) { dimensionsTotal = v; },
+		get expansionOf() { return expansionOf; },
+		set expansionOf(v) { expansionOf = v; },
+		get expansionsFetching() { return expansionsFetching; },
+		set expansionsFetching(v) { expansionsFetching = v; },
+		get expansionsFetched() { return expansionsFetched; },
+		set expansionsFetched(v) { expansionsFetched = v; },
+		get expansionsTotal() { return expansionsTotal; },
+		set expansionsTotal(v) { expansionsTotal = v; },
 
 		get currentGame() { return currentGame; },
 		get reviewedCount() { return reviewedCount; },
@@ -161,6 +193,8 @@ function createAppState() {
 		get isGoalMet() { return isGoalMet; },
 		get removeVolumeCuFt() { return removeVolumeCuFt; },
 		get dimensionsCoverage() { return dimensionsCoverage; },
+		get collectionBggIds() { return collectionBggIds; },
+		get expansionCount() { return expansionCount; },
 
 		buildQueue,
 		advanceToNext,

@@ -45,4 +45,9 @@ export interface BoxDimensions {
 	volume: number; // cubic inches (w * l * d)
 }
 
+export interface ExpansionLink {
+	bggId: number;
+	name: string;
+}
+
 export type SortMode = 'default' | 'shuffle' | 'alphabetical' | 'rating';

@@ -10,6 +10,7 @@
 
 	let password = $state('');
 	let dimensionPollTimer: ReturnType<typeof setInterval> | null = null;
+	let expansionPollTimer: ReturnType<typeof setInterval> | null = null;
 
 	onMount(async () => {
 		// Load existing decisions for session resume
@@ -37,6 +38,7 @@
 
 	onDestroy(() => {
 		if (dimensionPollTimer) clearInterval(dimensionPollTimer);
+		if (expansionPollTimer) clearInterval(expansionPollTimer);
 	});
 
 	function delay(ms: number): Promise<void> {
@@ -78,6 +80,52 @@
 				if (!data.status.inProgress && dimensionPollTimer) {
 					clearInterval(dimensionPollTimer);
 					dimensionPollTimer = null;
+				}
+			}
+		} catch {
+			// Non-critical
+		}
+	}
+
+	async function startExpansionFetch() {
+		const bggIds = appState.games.map((g) => g.bggId);
+		if (bggIds.length === 0) return;
+
+		// Kick off background fetch
+		try {
+			await fetch('/api/bgg/expansions', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ bggIds })
+			});
+		} catch {
+			// Non-critical
+		}
+
+		// Poll for updates
+		pollExpansions();
+		expansionPollTimer = setInterval(pollExpansions, 5000);
+	}
+
+	async function pollExpansions() {
+		try {
+			const res = await fetch('/api/bgg/expansions');
+			if (res.ok) {
+				const data = await res.json();
+				appState.expansionOf = data.expansions;
+				appState.expansionsFetching = data.status.inProgress;
+				appState.expansionsFetched = data.status.fetched;
+				appState.expansionsTotal = data.status.total;
+
+				// Rebuild queue when expansion data arrives (to re-sort)
+				if (appState.games.length > 0) {
+					appState.buildQueue();
+				}
+
+				// Stop polling when done
+				if (!data.status.inProgress && expansionPollTimer) {
+					clearInterval(expansionPollTimer);
+					expansionPollTimer = null;
 				}
 			}
 		} catch {
@@ -137,6 +185,7 @@
 					appState.games = games;
 					appState.buildQueue();
 					startDimensionFetch();
+					startExpansionFetch();
 					return;
 				}
 
@@ -272,7 +321,7 @@
 			</div>
 
 			{#if appState.currentGame}
-				<GameCard game={appState.currentGame} />
+				<GameCard game={appState.currentGame} expansionOf={appState.expansionOf[appState.currentGame.bggId]?.filter((b) => appState.collectionBggIds.has(b.bggId))} />
 				<InterviewForm game={appState.currentGame} onsubmit={handleDecision} />
 			{:else}
 				<div class="done-message">

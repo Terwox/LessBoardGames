@@ -1,7 +1,7 @@
 <script lang="ts">
-	import type { Game } from '$lib/types';
+	import type { Game, ExpansionLink } from '$lib/types';
 
-	let { game }: { game: Game } = $props();
+	let { game, expansionOf }: { game: Game; expansionOf?: ExpansionLink[] } = $props();
 
 	const ownedYears = $derived(() => {
 		if (!game.dateAdded) return null;
@@ -33,6 +33,9 @@
 		{/if}
 	</div>
 	<div class="game-info">
+		{#if expansionOf && expansionOf.length > 0}
+			<div class="expansion-banner">Expansion of {expansionOf.map((b) => b.name).join(', ')}</div>
+		{/if}
 		<h2 class="game-name">
 			<a href="https://boardgamegeek.com/boardgame/{game.bggId}" target="_blank" rel="noopener">{game.name}</a>
 			<span class="year">({game.yearPublished})</span>
@@ -105,6 +108,17 @@
 		color: #999;
 		border-radius: 4px;
 		font-size: 0.85rem;
+	}
+
+	.expansion-banner {
+		font-size: 0.78rem;
+		color: #7a6e2a;
+		background: #fdf6e3;
+		border: 1px solid #e8dbb5;
+		border-radius: 4px;
+		padding: 0.25rem 0.5rem;
+		margin-bottom: 0.5rem;
+		width: fit-content;
 	}
 
 	.game-info {
