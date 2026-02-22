@@ -70,7 +70,7 @@
 				<span class="skip">{appState.skipCount} skipped</span>
 			{/if}
 			{#if appState.removeCount > 0 && appState.removeVolumeCuFt > 0}
-				<span class="volume">{appState.removeVolumeCuFt} cu ft freed</span>
+				<span class="volume">~{appState.removeVolumeCuFt} cu ft freed (est.)</span>
 			{/if}
 		</div>
 	</div>
