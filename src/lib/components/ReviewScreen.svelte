@@ -14,6 +14,18 @@
 		appState.screen = 'interview';
 	}
 
+	function reviseDecision(decision: Decision) {
+		// Navigate to that game in the interview queue, removing the old decision
+		// so the game reappears for re-evaluation
+		appState.decisions = appState.decisions.filter((d) => d.bggId !== decision.bggId);
+		appState.buildQueue();
+		appState.goToGame(decision.bggId);
+		appState.screen = 'interview';
+
+		// Persist the removal
+		fetch(`/api/decisions/${decision.bggId}`, { method: 'DELETE' }).catch(() => {});
+	}
+
 	function exportSummary() {
 		const lines = appState.decisions.map((d) => {
 			const status = d.status === 'keep' ? 'KEEP' : d.status === 'skip' ? 'SKIP' : 'REMOVE';
@@ -80,12 +92,19 @@
 	{:else}
 		<div class="decision-list">
 			{#each filtered as decision (decision.bggId)}
+				{@const dims = appState.dimensions[decision.bggId]}
+				{@const volumeCuFt = dims ? Math.round((dims.volume / 1728) * 10) / 10 : null}
 				<div class="decision-card" class:is-keep={decision.status === 'keep'} class:is-remove={decision.status === 'remove'} class:is-skip={decision.status === 'skip'}>
 					<div class="decision-status">
 						{decision.status === 'keep' ? 'KEEP' : decision.status === 'skip' ? 'SKIP' : 'REMOVE'}
 					</div>
 					<div class="decision-info">
-						<span class="decision-name">{decision.gameName}</span>
+						<span class="decision-name">
+							{decision.gameName}
+							{#if volumeCuFt}
+								<span class="decision-volume">{volumeCuFt} cu ft</span>
+							{/if}
+						</span>
 						{#if decision.status === 'keep' && decision.reasoning}
 							<span class="decision-reasoning">"{decision.reasoning}"</span>
 						{/if}
@@ -93,6 +112,7 @@
 							<span class="decision-notes">{decision.notes}</span>
 						{/if}
 					</div>
+					<button class="revise-btn" onclick={() => reviseDecision(decision)} title="Revise this decision">✏️</button>
 				</div>
 			{/each}
 		</div>
@@ -252,5 +272,31 @@
 	.decision-notes {
 		color: #888;
 		font-size: 0.8rem;
+	}
+
+	.decision-volume {
+		font-size: 0.75rem;
+		color: #8e44ad;
+		font-weight: 400;
+		margin-left: 0.5rem;
+	}
+
+	.revise-btn {
+		flex-shrink: 0;
+		align-self: center;
+		background: none;
+		border: 1px solid transparent;
+		border-radius: 4px;
+		padding: 0.25rem 0.4rem;
+		cursor: pointer;
+		font-size: 0.85rem;
+		opacity: 0.4;
+		transition: opacity 0.15s, border-color 0.15s;
+		margin-left: auto;
+	}
+
+	.revise-btn:hover {
+		opacity: 1;
+		border-color: var(--border, #e0e0e0);
 	}
 </style>
