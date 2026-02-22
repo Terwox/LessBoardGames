@@ -50,6 +50,11 @@ function createAppState() {
 			: 0
 	);
 	const collectionBggIds = $derived(new Set(games.map((g) => g.bggId)));
+	const recentCount = $derived(() => {
+		const oneYearAgo = new Date();
+		oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1);
+		return games.filter((g) => g.dateAdded && new Date(g.dateAdded) >= oneYearAgo).length;
+	});
 	const expansionCount = $derived(
 		games.filter((g) => {
 			const links = expansionOf[g.bggId];
@@ -81,13 +86,23 @@ function createAppState() {
 	function buildDefaultQueue(undecided: Game[]): Game[] {
 		const threeYearsAgo = new Date();
 		threeYearsAgo.setFullYear(threeYearsAgo.getFullYear() - 3);
+		const oneYearAgo = new Date();
+		oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1);
+
+		// Filter out recent acquisitions (owned < 1 year) — they get a grace period
+		const recentCutoff = undecided.filter((g) => {
+			if (!g.dateAdded) return false; // no date = keep in queue
+			return new Date(g.dateAdded) >= oneYearAgo;
+		});
+		const recentIds = new Set(recentCutoff.map((g) => g.bggId));
+		const eligible = undecided.filter((g) => !recentIds.has(g.bggId));
 
 		// Separate expansions (of owned base games) from standalone games
-		const expansions = undecided
+		const expansions = eligible
 			.filter((g) => isExpansionInCollection(g))
 			.sort((a, b) => a.name.localeCompare(b.name));
 		const expansionIds = new Set(expansions.map((g) => g.bggId));
-		const standalone = undecided.filter((g) => !expansionIds.has(g.bggId));
+		const standalone = eligible.filter((g) => !expansionIds.has(g.bggId));
 
 		// Tier 1: Never played, oldest owned first
 		const neverPlayed = standalone
@@ -194,6 +209,7 @@ function createAppState() {
 		get removeVolumeCuFt() { return removeVolumeCuFt; },
 		get dimensionsCoverage() { return dimensionsCoverage; },
 		get collectionBggIds() { return collectionBggIds; },
+		get recentCount() { return recentCount(); },
 		get expansionCount() { return expansionCount; },
 
 		buildQueue,
