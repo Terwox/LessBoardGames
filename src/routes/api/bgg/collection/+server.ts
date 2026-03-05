@@ -1,6 +1,7 @@
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { fetchCollectionOnce } from '$lib/server/bgg-api';
+import { saveCollectionCache } from '$lib/server/persistence';
 
 export const GET: RequestHandler = async ({ url }) => {
 	const username = url.searchParams.get('username');
@@ -11,7 +12,14 @@ export const GET: RequestHandler = async ({ url }) => {
 	try {
 		const result = await fetchCollectionOnce(username);
 
-		if (result.status === 200) {
+		if (result.status === 200 && result.games) {
+			// Cache collection locally on every successful fetch
+			try {
+				await saveCollectionCache(result.games);
+			} catch (cacheErr) {
+				console.error('[Cache] Failed to write collection cache:', cacheErr);
+				// Non-fatal — still return games to client
+			}
 			return json({ games: result.games });
 		}
 

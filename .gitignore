@@ -18,8 +18,11 @@ Thumbs.db
 !.env.example
 !.env.test
 
-# Local data (decisions, credentials, write queue)
-/data
+# Local data — sensitive/ephemeral stays ignored, portable DB gets committed
+/data/credentials.enc
+/data/pending-writes
+/data/completed-writes
+# Keep decisions.json and collection-cache.json tracked (portable DB)
 
 # Vite
 vite.config.js.timestamp-*
