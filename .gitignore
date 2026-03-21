@@ -23,6 +23,9 @@ Thumbs.db
 /data/pending-writes
 /data/completed-writes
 # Keep decisions.json and collection-cache.json tracked (portable DB)
+/data/shelf-images
+/data/shelf-photos.json
+/data/shelf-games.json
 
 # Vite
 vite.config.js.timestamp-*

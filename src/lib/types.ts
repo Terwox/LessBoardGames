@@ -51,3 +51,27 @@ export interface ExpansionLink {
 }
 
 export type SortMode = 'default' | 'shuffle' | 'alphabetical' | 'rating';
+
+// --- Shelf Heatmap ---
+
+export type ShelfZone = 'outgoing' | 'grab-and-go' | 'on-deck' | 'backlog' | 'big-box' | 'other';
+
+export interface ShelfPhoto {
+	id: string;
+	filename: string;
+	uploadedAt: string;
+	width: number;
+	height: number;
+	zone: ShelfZone;
+	label: string;
+}
+
+export interface ShelfGame {
+	id: string;
+	photoId: string;
+	detectedName: string;
+	bggId: number | null;
+	box: { x: number; y: number; w: number; h: number }; // % of image dims, 0-100
+	groupedExpansionBggIds: number[];
+	status: 'detected' | 'linked' | 'unmatched';
+}
