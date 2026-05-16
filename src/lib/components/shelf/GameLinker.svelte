@@ -5,6 +5,9 @@
 
 	let searchQuery = $state('');
 	let searchResults = $state<Game[]>([]);
+	let editingNameId = $state<string | null>(null);
+	let editNameValue = $state('');
+	let bggUrlInput = $state('');
 
 	const unllinkedGames = $derived(
 		shelfState.gamesForSelectedPhoto.filter((g) => g.status === 'detected')
@@ -50,6 +53,50 @@
 		}
 	}
 
+	function startEditName(game: ShelfGame) {
+		editingNameId = game.id;
+		editNameValue = game.detectedName;
+	}
+
+	async function saveName(gameId: string) {
+		const trimmed = editNameValue.trim();
+		if (!trimmed) return;
+		shelfState.updateGame(gameId, { detectedName: trimmed });
+		await fetch(`/api/shelf/games/${gameId}`, {
+			method: 'PUT',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({ detectedName: trimmed })
+		});
+		editingNameId = null;
+		editNameValue = '';
+	}
+
+	function parseBggId(input: string): number | null {
+		const trimmed = input.trim();
+		// Direct numeric ID
+		if (/^\d+$/.test(trimmed)) return parseInt(trimmed, 10);
+		// BGG URL: boardgamegeek.com/boardgame/12345/...
+		const match = trimmed.match(/boardgamegeek\.com\/boardgame\/(\d+)/);
+		return match ? parseInt(match[1], 10) : null;
+	}
+
+	async function linkByUrl(gameId: string) {
+		const bggId = parseBggId(bggUrlInput);
+		if (bggId === null) return;
+		await linkGame(gameId, bggId);
+		bggUrlInput = '';
+	}
+
+	function selectGame(gameId: string) {
+		shelfState.selectedGameId = gameId;
+	}
+
+	function selectGameFromKeyboard(event: KeyboardEvent, gameId: string) {
+		if (event.key !== 'Enter' && event.key !== ' ') return;
+		event.preventDefault();
+		selectGame(gameId);
+	}
+
 	function searchCollection(query: string) {
 		if (!query.trim()) {
 			searchResults = [];
@@ -84,9 +131,24 @@
 			class:selected={shelfState.selectedGameId === game.id}
 			class:linked={game.status === 'linked'}
 			class:unmatched={game.status === 'unmatched'}
+			role="button"
+			tabindex="0"
+			onclick={() => selectGame(game.id)}
+			onkeydown={(e) => selectGameFromKeyboard(e, game.id)}
 		>
 			<div class="card-header">
-				<strong>{game.detectedName || '(unnamed)'}</strong>
+				{#if editingNameId === game.id}
+					<input
+						class="name-edit"
+						type="text"
+						bind:value={editNameValue}
+						onkeydown={(e) => { if (e.key === 'Enter') saveName(game.id); if (e.key === 'Escape') editingNameId = null; }}
+					/>
+					<button class="name-save" onclick={() => saveName(game.id)}>✓</button>
+				{:else}
+					<strong ondblclick={() => startEditName(game)} title="Double-click to rename">{game.detectedName || '(unnamed)'}</strong>
+					<button class="name-edit-btn" onclick={() => startEditName(game)} title="Edit name">✏️</button>
+				{/if}
 				<span class="status-badge">{game.status}</span>
 			</div>
 
@@ -121,6 +183,17 @@
 							</button>
 						{/if}
 					{/each}
+				</div>
+
+				<div class="bgg-url-input">
+					<input
+						type="text"
+						bind:value={bggUrlInput}
+						placeholder="BGG ID or URL..."
+						onkeydown={(e) => { if (e.key === 'Enter') linkByUrl(game.id); }}
+						onfocus={() => bggUrlInput = ''}
+					/>
+					<button onclick={() => linkByUrl(game.id)} disabled={!parseBggId(bggUrlInput)}>Link</button>
 				</div>
 
 				{#if manualSearchFor === game.id}
@@ -300,4 +373,52 @@
 		border-radius: 2px;
 	}
 	.search-result:hover { background: #eee; }
+	.name-edit {
+		flex: 1;
+		font-size: 0.8rem;
+		font-weight: bold;
+		padding: 1px 4px;
+		border: 1px solid #4488ff;
+		border-radius: 3px;
+		min-width: 0;
+	}
+	.name-save {
+		padding: 0 4px;
+		border: none;
+		background: none;
+		cursor: pointer;
+		font-size: 0.9rem;
+	}
+	.name-edit-btn {
+		padding: 0 2px;
+		border: none;
+		background: none;
+		cursor: pointer;
+		font-size: 0.65rem;
+		opacity: 0.4;
+		flex-shrink: 0;
+	}
+	.name-edit-btn:hover { opacity: 1; }
+	.link-card:hover .name-edit-btn { opacity: 0.7; }
+	.bgg-url-input {
+		display: flex;
+		gap: 2px;
+		margin-bottom: 0.25rem;
+	}
+	.bgg-url-input input {
+		flex: 1;
+		font-size: 0.7rem;
+		padding: 2px 4px;
+		min-width: 0;
+	}
+	.bgg-url-input button {
+		font-size: 0.65rem;
+		padding: 1px 6px;
+		cursor: pointer;
+		border: 1px solid #ccc;
+		border-radius: 3px;
+		background: none;
+		flex-shrink: 0;
+	}
+	.bgg-url-input button:disabled { opacity: 0.3; cursor: not-allowed; }
 </style>

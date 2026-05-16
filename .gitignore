@@ -27,6 +27,28 @@ Thumbs.db
 /data/shelf-photos.json
 /data/shelf-games.json
 
+# Local shelf vision experiments and generated review assets
+/scripts/
+/data/owl-*.json
+/data/sam2-*.json
+/data/crop-*.json
+/data/percrop-ids-*.json
+/data/full-inventory-*.json
+/data/shelf-claude-*.json
+/data/shelf-ids-*.json
+/data/shelf-owl*.json
+/data/shelf-sam2-*.json
+/static/contact-sheets/
+/static/shelves/
+/static/*heatmap*.json
+/static/*heatmap*.html
+/static/shelf-*.html
+/static/gallery*.html
+/static/gallery-index.json
+/static/closet-*.json
+/static/bedroom-heatmap-data.json
+/static/office-floor-heatmap-data.json
+
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
