@@ -55,3 +55,6 @@ vite.config.ts.timestamp-*
 
 # Windows artifact
 nul
+
+# OMX local runtime artifacts
+.omx/
