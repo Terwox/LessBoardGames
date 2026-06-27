@@ -60,9 +60,9 @@
 
 <div class="review-screen">
 	<div class="review-header">
-		<button class="back-btn" onclick={goBack}>Back to interview</button>
+		<button type="button" class="back-btn" onclick={goBack} aria-label="Return to board game interview">Back to interview</button>
 		<h2>Review Decisions</h2>
-		<div class="review-stats">
+		<div class="review-stats" aria-live="polite">
 			<span>{appState.reviewedCount} reviewed</span>
 			<span class="keep">{appState.keepCount} keeping</span>
 			<span class="remove">{appState.removeCount} removing</span>
@@ -76,25 +76,25 @@
 	</div>
 
 	<div class="controls">
-		<div class="filter-group">
-			<button class:active={filter === 'all'} onclick={() => (filter = 'all')}>All ({appState.reviewedCount})</button>
-			<button class:active={filter === 'keep'} onclick={() => (filter = 'keep')}>Keep ({appState.keepCount})</button>
-			<button class:active={filter === 'remove'} onclick={() => (filter = 'remove')}>Remove ({appState.removeCount})</button>
+		<div class="filter-group" role="group" aria-label="Review decision filter">
+			<button type="button" class:active={filter === 'all'} aria-pressed={filter === 'all'} aria-label={`Show all ${appState.reviewedCount} review decisions`} onclick={() => (filter = 'all')}>All ({appState.reviewedCount})</button>
+			<button type="button" class:active={filter === 'keep'} aria-pressed={filter === 'keep'} aria-label={`Show ${appState.keepCount} kept review decisions`} onclick={() => (filter = 'keep')}>Keep ({appState.keepCount})</button>
+			<button type="button" class:active={filter === 'remove'} aria-pressed={filter === 'remove'} aria-label={`Show ${appState.removeCount} removed review decisions`} onclick={() => (filter = 'remove')}>Remove ({appState.removeCount})</button>
 			{#if appState.skipCount > 0}
-				<button class:active={filter === 'skip'} onclick={() => (filter = 'skip')}>Skip ({appState.skipCount})</button>
+				<button type="button" class:active={filter === 'skip'} aria-pressed={filter === 'skip'} aria-label={`Show ${appState.skipCount} skipped review decisions`} onclick={() => (filter = 'skip')}>Skip ({appState.skipCount})</button>
 			{/if}
 		</div>
-		<button class="export-btn" onclick={exportSummary}>Export</button>
+		<button type="button" class="export-btn" onclick={exportSummary} aria-label="Export review decisions">Export</button>
 	</div>
 
 	{#if filtered.length === 0}
 		<p class="empty">No decisions yet.</p>
 	{:else}
-		<div class="decision-list">
+		<div class="decision-list" role="list" aria-live="polite">
 			{#each filtered as decision (decision.bggId)}
 				{@const dims = appState.dimensions[decision.bggId]}
 				{@const volumeCuFt = dims ? Math.round((dims.volume / 1728) * 10) / 10 : null}
-				<div class="decision-card" class:is-keep={decision.status === 'keep'} class:is-remove={decision.status === 'remove'} class:is-skip={decision.status === 'skip'}>
+				<div class="decision-card" role="listitem" class:is-keep={decision.status === 'keep'} class:is-remove={decision.status === 'remove'} class:is-skip={decision.status === 'skip'}>
 					<div class="decision-status">
 						{decision.status === 'keep' ? 'KEEP' : decision.status === 'skip' ? 'SKIP' : 'REMOVE'}
 					</div>
@@ -112,7 +112,13 @@
 							<span class="decision-notes">{decision.notes}</span>
 						{/if}
 					</div>
-					<button class="revise-btn" onclick={() => reviseDecision(decision)} title="Revise this decision">✏️</button>
+					<button
+						type="button"
+						class="revise-btn"
+						onclick={() => reviseDecision(decision)}
+						title="Revise this decision"
+						aria-label={`Revise decision for ${decision.gameName}`}
+					>✏️</button>
 				</div>
 			{/each}
 		</div>
