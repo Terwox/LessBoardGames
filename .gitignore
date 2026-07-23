@@ -56,8 +56,6 @@ vite.config.ts.timestamp-*
 # Windows artifact
 nul
 
-# OMX local runtime artifacts
-.omx/
 
 # Session and generated artifacts
 __pycache__/
@@ -67,3 +65,6 @@ __pycache__/
 .RData
 .Rproj.user/
 .ipynb_checkpoints/
+
+# OMX local runtime artifacts
+.omx/
