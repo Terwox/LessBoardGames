@@ -58,3 +58,12 @@ nul
 
 # OMX local runtime artifacts
 .omx/
+
+# Session and generated artifacts
+__pycache__/
+*.pyc
+*.pyo
+.Rhistory
+.RData
+.Rproj.user/
+.ipynb_checkpoints/
