@@ -1,7 +1,7 @@
 {
-	"fetchedAt": "2026-03-05T19:52:50.607Z",
+	"fetchedAt": "2026-08-06T02:02:36.648Z",
 	"username": "Terwox",
-	"count": 439,
+	"count": 455,
 	"games": [
 		{
 			"bggId": 68448,
@@ -19,7 +19,7 @@
 				"min": 2,
 				"max": 7
 			},
-			"bggRating": 7.55105,
+			"bggRating": 7.54635,
 			"comment": "It&#039;s like drafting for Magic the Gathering, except you don&#039;t have to do something atrocious like actually play Magic after you&#039;re done."
 		},
 		{
@@ -38,7 +38,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.95447,
+			"bggRating": 7.95047,
 			"comment": ""
 		},
 		{
@@ -57,7 +57,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.42349,
+			"bggRating": 7.41289,
 			"comment": ""
 		},
 		{
@@ -76,7 +76,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.05898,
+			"bggRating": 7.05564,
 			"comment": ""
 		},
 		{
@@ -95,7 +95,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 6.9253,
+			"bggRating": 6.93351,
 			"comment": ""
 		},
 		{
@@ -114,7 +114,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 6.9253,
+			"bggRating": 6.93351,
 			"comment": ""
 		},
 		{
@@ -133,7 +133,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 6.9253,
+			"bggRating": 6.93351,
 			"comment": ""
 		},
 		{
@@ -156,6 +156,25 @@
 			"comment": ""
 		},
 		{
+			"bggId": 357890,
+			"collId": 148027116,
+			"name": "An Age Contrived",
+			"yearPublished": 2024,
+			"thumbnailUrl": "https://cf.geekdo-images.com/K5ia-2xS04p1qcvPuWoBig__small/img/cp_2JaeuO9IZEBs9RWx7wM3k9VQ=/fit-in/200x150/filters:strip_icc()/pic7005083.png",
+			"imageUrl": "https://cf.geekdo-images.com/K5ia-2xS04p1qcvPuWoBig__original/img/dWmx0CsZvJmkO908EzxsoLhBk-c=/0x0/filters:format(png)/pic7005083.png",
+			"dateAdded": "2026-08-01 17:54:23",
+			"playCount": 0,
+			"lastPlayed": null,
+			"userRating": null,
+			"weight": 0,
+			"playerCount": {
+				"min": 1,
+				"max": 5
+			},
+			"bggRating": 5.75098,
+			"comment": ""
+		},
+		{
 			"bggId": 383179,
 			"collId": 108882527,
 			"name": "Age of Innovation",
@@ -163,7 +182,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/D1vrcFEptCEoD8Z6s_iRfw__small/img/0yBK_DMaSgRVrp2fGuNPgb0Jo7w=/fit-in/200x150/filters:strip_icc()/pic7430993.jpg",
 			"imageUrl": "https://cf.geekdo-images.com/D1vrcFEptCEoD8Z6s_iRfw__original/img/1vY0K3wSqlYXq0JEylSI-7agxKs=/0x0/filters:format(jpeg)/pic7430993.jpg",
 			"dateAdded": "2023-09-29 02:45:20",
-			"playCount": 5,
+			"playCount": 6,
 			"lastPlayed": "2023-09-29 02:45:20",
 			"userRating": 9.8,
 			"weight": 0,
@@ -171,7 +190,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 7.75032,
+			"bggRating": 7.75402,
 			"comment": ""
 		},
 		{
@@ -182,7 +201,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/YCGWJMFwOI5efji2RJ2mSw__small/img/h_Rp2XYqaNElM2hrYxUSzMxRRgM=/fit-in/200x150/filters:strip_icc()/pic8093340.jpg",
 			"imageUrl": "https://cf.geekdo-images.com/YCGWJMFwOI5efji2RJ2mSw__original/img/jC_He46LcIcKWU-kSwkYdr9Z45E=/0x0/filters:format(jpeg)/pic8093340.jpg",
 			"dateAdded": "2019-07-30 20:22:43",
-			"playCount": 13,
+			"playCount": 14,
 			"lastPlayed": "2019-07-30 20:22:43",
 			"userRating": 9.5,
 			"weight": 0,
@@ -190,7 +209,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.64929,
+			"bggRating": 7.64955,
 			"comment": ""
 		},
 		{
@@ -209,7 +228,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.04476,
+			"bggRating": 7.03945,
 			"comment": "A great game, though an expansion is almost necessary after a few playthroughs.  Well worth it, though!"
 		},
 		{
@@ -228,7 +247,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.07204,
+			"bggRating": 7.06967,
 			"comment": ""
 		},
 		{
@@ -247,7 +266,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.07204,
+			"bggRating": 7.06967,
 			"comment": ""
 		},
 		{
@@ -266,7 +285,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.63805,
+			"bggRating": 6.62979,
 			"comment": ""
 		},
 		{
@@ -285,7 +304,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 6.47947,
+			"bggRating": 6.5922,
 			"comment": ""
 		},
 		{
@@ -304,7 +323,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.65266,
+			"bggRating": 7.6523,
 			"comment": ""
 		},
 		{
@@ -323,7 +342,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.65266,
+			"bggRating": 7.6523,
 			"comment": ""
 		},
 		{
@@ -342,7 +361,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.65266,
+			"bggRating": 7.6523,
 			"comment": ""
 		},
 		{
@@ -361,7 +380,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 7.27211,
+			"bggRating": 7.26707,
 			"comment": "I have played this on TTS and it&#039;s pretty cool!  Only w/ 2p though."
 		},
 		{
@@ -380,7 +399,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.06175,
+			"bggRating": 7.05763,
 			"comment": ""
 		},
 		{
@@ -399,7 +418,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.84454,
+			"bggRating": 6.83804,
 			"comment": ""
 		},
 		{
@@ -418,7 +437,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 7.5139,
+			"bggRating": 7.50936,
 			"comment": ""
 		},
 		{
@@ -437,7 +456,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.58508,
+			"bggRating": 7.59595,
 			"comment": ""
 		},
 		{
@@ -456,7 +475,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.23066,
+			"bggRating": 6.22388,
 			"comment": ""
 		},
 		{
@@ -475,7 +494,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.88647,
+			"bggRating": 6.88277,
 			"comment": "An excellent fun game of wizards competing for influence!"
 		},
 		{
@@ -494,7 +513,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 8.35489,
+			"bggRating": 8.35363,
 			"comment": ""
 		},
 		{
@@ -513,7 +532,7 @@
 				"min": 1,
 				"max": 2
 			},
-			"bggRating": 7.89151,
+			"bggRating": 7.88851,
 			"comment": ""
 		},
 		{
@@ -532,7 +551,45 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.06924,
+			"bggRating": 7.09075,
+			"comment": ""
+		},
+		{
+			"bggId": 149241,
+			"collId": 148027121,
+			"name": "Assault on Doomrock",
+			"yearPublished": 2014,
+			"thumbnailUrl": "https://cf.geekdo-images.com/yMcWmW7Kaaeu0AeBLYTPnQ__small/img/ZbWpRKl4s3iJh_-kGW5SAlqDRpg=/fit-in/200x150/filters:strip_icc()/pic7012223.jpg",
+			"imageUrl": "https://cf.geekdo-images.com/yMcWmW7Kaaeu0AeBLYTPnQ__original/img/QGSfNAqVzHmuD3Ghynd8JKyI0hw=/0x0/filters:format(jpeg)/pic7012223.jpg",
+			"dateAdded": "2026-08-01 17:54:24",
+			"playCount": 0,
+			"lastPlayed": null,
+			"userRating": null,
+			"weight": 0,
+			"playerCount": {
+				"min": 1,
+				"max": 4
+			},
+			"bggRating": 5.90757,
+			"comment": ""
+		},
+		{
+			"bggId": 367396,
+			"collId": 148027114,
+			"name": "Avalon: Big Box",
+			"yearPublished": 2022,
+			"thumbnailUrl": "https://cf.geekdo-images.com/uI6LtXOb-Yed0-cUpQ9lew__small/img/EApXy12vHo87cLF5Cp8dd9ljlEw=/fit-in/200x150/filters:strip_icc()/pic7037062.png",
+			"imageUrl": "https://cf.geekdo-images.com/uI6LtXOb-Yed0-cUpQ9lew__original/img/6CP6P-JXvZR9dnVRwPWzctoBIY8=/0x0/filters:format(png)/pic7037062.png",
+			"dateAdded": "2026-08-01 17:54:22",
+			"playCount": 0,
+			"lastPlayed": null,
+			"userRating": null,
+			"weight": 0,
+			"playerCount": {
+				"min": 5,
+				"max": 10
+			},
+			"bggRating": 6.06326,
 			"comment": ""
 		},
 		{
@@ -551,7 +608,7 @@
 				"min": 1,
 				"max": 10
 			},
-			"bggRating": 5.35928,
+			"bggRating": 5.35881,
 			"comment": ""
 		},
 		{
@@ -570,7 +627,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.07072,
+			"bggRating": 7.06643,
 			"comment": ""
 		},
 		{
@@ -589,7 +646,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 6.79936,
+			"bggRating": 6.79273,
 			"comment": ""
 		},
 		{
@@ -608,7 +665,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 6.07605,
+			"bggRating": 6.06943,
 			"comment": ""
 		},
 		{
@@ -627,7 +684,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 5.85325,
+			"bggRating": 5.85145,
 			"comment": ""
 		},
 		{
@@ -646,7 +703,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 5.65739,
+			"bggRating": 5.65488,
 			"comment": ""
 		},
 		{
@@ -665,7 +722,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.43657,
+			"bggRating": 6.42818,
 			"comment": ""
 		},
 		{
@@ -684,7 +741,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.04829,
+			"bggRating": 7.03999,
 			"comment": ""
 		},
 		{
@@ -722,7 +779,7 @@
 				"min": 4,
 				"max": 6
 			},
-			"bggRating": 5.56517,
+			"bggRating": 5.56322,
 			"comment": ""
 		},
 		{
@@ -741,7 +798,7 @@
 				"min": 2,
 				"max": 7
 			},
-			"bggRating": 6.78523,
+			"bggRating": 6.78259,
 			"comment": ""
 		},
 		{
@@ -760,7 +817,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 6.61158,
+			"bggRating": 6.64268,
 			"comment": ""
 		},
 		{
@@ -770,16 +827,16 @@
 			"yearPublished": 2023,
 			"thumbnailUrl": "https://cf.geekdo-images.com/cwQZOU3cNOTta6nuT77byg__small/img/ktq00DLZxfyjPhrAvHe-V48i-Kg=/fit-in/200x150/filters:strip_icc()/pic6279361.png",
 			"imageUrl": "https://cf.geekdo-images.com/cwQZOU3cNOTta6nuT77byg__original/img/e3jnVmxgpisZ32yT3V_-J5hlLU0=/0x0/filters:format(png)/pic6279361.png",
-			"dateAdded": "2025-08-16 18:35:44",
+			"dateAdded": "2026-08-03 18:26:56",
 			"playCount": 1,
-			"lastPlayed": "2025-08-16 18:35:44",
-			"userRating": null,
+			"lastPlayed": "2026-08-03 18:26:56",
+			"userRating": 8.6,
 			"weight": 0,
 			"playerCount": {
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 6.68568,
+			"bggRating": 6.71914,
 			"comment": ""
 		},
 		{
@@ -798,7 +855,7 @@
 				"min": 2,
 				"max": 6
 			},
-			"bggRating": 5.71835,
+			"bggRating": 5.71627,
 			"comment": ""
 		},
 		{
@@ -817,7 +874,7 @@
 				"min": 6,
 				"max": 12
 			},
-			"bggRating": 5.93448,
+			"bggRating": 5.93185,
 			"comment": ""
 		},
 		{
@@ -836,7 +893,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 6.8578,
+			"bggRating": 6.84633,
 			"comment": ""
 		},
 		{
@@ -855,7 +912,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 5.51312,
+			"bggRating": 5.51534,
 			"comment": ""
 		},
 		{
@@ -874,7 +931,7 @@
 				"min": 4,
 				"max": 9
 			},
-			"bggRating": 5.49221,
+			"bggRating": 5.49299,
 			"comment": "So bad it&#039;s kinda good."
 		},
 		{
@@ -893,7 +950,7 @@
 				"min": 2,
 				"max": 7
 			},
-			"bggRating": 6.96079,
+			"bggRating": 6.9636,
 			"comment": ""
 		},
 		{
@@ -912,7 +969,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.07348,
+			"bggRating": 7.07249,
 			"comment": ""
 		},
 		{
@@ -931,7 +988,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 6.49751,
+			"bggRating": 6.50877,
 			"comment": ""
 		},
 		{
@@ -950,7 +1007,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 8.39529,
+			"bggRating": 8.39042,
 			"comment": ""
 		},
 		{
@@ -969,7 +1026,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.49003,
+			"bggRating": 5.49022,
 			"comment": ""
 		},
 		{
@@ -988,7 +1045,7 @@
 				"min": 4,
 				"max": 8
 			},
-			"bggRating": 6.6179,
+			"bggRating": 6.61482,
 			"comment": ""
 		},
 		{
@@ -1007,7 +1064,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 6.23912,
+			"bggRating": 6.22986,
 			"comment": ""
 		},
 		{
@@ -1026,7 +1083,7 @@
 				"min": 3,
 				"max": 8
 			},
-			"bggRating": 7.24859,
+			"bggRating": 7.24733,
 			"comment": ""
 		},
 		{
@@ -1045,7 +1102,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.68982,
+			"bggRating": 6.72939,
 			"comment": ""
 		},
 		{
@@ -1064,7 +1121,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.22916,
+			"bggRating": 6.2257,
 			"comment": ""
 		},
 		{
@@ -1083,7 +1140,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.74026,
+			"bggRating": 7.73277,
 			"comment": ""
 		},
 		{
@@ -1102,7 +1159,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 8.46305,
+			"bggRating": 8.49198,
 			"comment": ""
 		},
 		{
@@ -1121,7 +1178,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 6.60279,
+			"bggRating": 6.60658,
 			"comment": ""
 		},
 		{
@@ -1140,7 +1197,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 7.11697,
+			"bggRating": 7.11465,
 			"comment": ""
 		},
 		{
@@ -1159,7 +1216,7 @@
 				"min": 1,
 				"max": 2
 			},
-			"bggRating": 6.68351,
+			"bggRating": 6.67844,
 			"comment": ""
 		},
 		{
@@ -1178,7 +1235,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.6473,
+			"bggRating": 6.6456,
 			"comment": ""
 		},
 		{
@@ -1197,7 +1254,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 6.64928,
+			"bggRating": 6.6422,
 			"comment": ""
 		},
 		{
@@ -1216,7 +1273,7 @@
 				"min": 1,
 				"max": 8
 			},
-			"bggRating": 6.67046,
+			"bggRating": 6.6766,
 			"comment": ""
 		},
 		{
@@ -1235,7 +1292,26 @@
 				"min": 1,
 				"max": 8
 			},
-			"bggRating": 6.382,
+			"bggRating": 6.43078,
+			"comment": ""
+		},
+		{
+			"bggId": 227072,
+			"collId": 69219868,
+			"name": "The Chameleon",
+			"yearPublished": 2017,
+			"thumbnailUrl": "https://cf.geekdo-images.com/-uBkiypUVyRKxNuOI_-ZpQ__small/img/qv_sRsagG0xQzNxg4Ol_AgiR2SY=/fit-in/200x150/filters:strip_icc()/pic3552344.png",
+			"imageUrl": "https://cf.geekdo-images.com/-uBkiypUVyRKxNuOI_-ZpQ__original/img/Y_12y74FIaAXMfiQ0tFhpfkrN1U=/0x0/filters:format(png)/pic3552344.png",
+			"dateAdded": "2026-06-27 16:18:21",
+			"playCount": 2,
+			"lastPlayed": "2026-06-27 16:18:21",
+			"userRating": 7,
+			"weight": 0,
+			"playerCount": {
+				"min": 3,
+				"max": 8
+			},
+			"bggRating": 6.16896,
 			"comment": ""
 		},
 		{
@@ -1254,7 +1330,7 @@
 				"min": 3,
 				"max": 8
 			},
-			"bggRating": 5.5509,
+			"bggRating": 5.54984,
 			"comment": ""
 		},
 		{
@@ -1273,7 +1349,7 @@
 				"min": 3,
 				"max": 5
 			},
-			"bggRating": 6.09842,
+			"bggRating": 6.09339,
 			"comment": ""
 		},
 		{
@@ -1292,7 +1368,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.77758,
+			"bggRating": 6.77195,
 			"comment": ""
 		},
 		{
@@ -1311,7 +1387,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.35813,
+			"bggRating": 7.42341,
 			"comment": ""
 		},
 		{
@@ -1330,7 +1406,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.307,
+			"bggRating": 7.31351,
 			"comment": ""
 		},
 		{
@@ -1349,7 +1425,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 6.44216,
+			"bggRating": 6.43812,
 			"comment": ""
 		},
 		{
@@ -1368,7 +1444,7 @@
 				"min": 2,
 				"max": 7
 			},
-			"bggRating": 6.02702,
+			"bggRating": 6.02392,
 			"comment": ""
 		},
 		{
@@ -1387,7 +1463,7 @@
 				"min": 2,
 				"max": 7
 			},
-			"bggRating": 6.02702,
+			"bggRating": 6.02392,
 			"comment": ""
 		},
 		{
@@ -1406,7 +1482,7 @@
 				"min": 3,
 				"max": 10
 			},
-			"bggRating": 5.92078,
+			"bggRating": 5.91574,
 			"comment": "Fond memories of playing this w/ my family during my childhood."
 		},
 		{
@@ -1425,7 +1501,7 @@
 				"min": 2,
 				"max": 8
 			},
-			"bggRating": 7.43043,
+			"bggRating": 7.42731,
 			"comment": ""
 		},
 		{
@@ -1444,7 +1520,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.23555,
+			"bggRating": 7.23336,
 			"comment": ""
 		},
 		{
@@ -1463,7 +1539,7 @@
 				"min": 2,
 				"max": 8
 			},
-			"bggRating": 6.99947,
+			"bggRating": 6.99659,
 			"comment": ""
 		},
 		{
@@ -1482,7 +1558,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 5.83752,
+			"bggRating": 5.83873,
 			"comment": ""
 		},
 		{
@@ -1501,7 +1577,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.58872,
+			"bggRating": 5.5861,
 			"comment": ""
 		},
 		{
@@ -1520,7 +1596,45 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.82009,
+			"bggRating": 6.82027,
+			"comment": ""
+		},
+		{
+			"bggId": 406652,
+			"collId": 144011569,
+			"name": "Compile: Main 1",
+			"yearPublished": 2024,
+			"thumbnailUrl": "https://cf.geekdo-images.com/KMSUmBs9elKj4qBMxGVFgw__small/img/3WDRoqcgMnl-Xd-KBnXkZdpVdPc=/fit-in/200x150/filters:strip_icc()/pic8778267.png",
+			"imageUrl": "https://cf.geekdo-images.com/KMSUmBs9elKj4qBMxGVFgw__original/img/gE1a5OvsMQJt-LSDS7ktEoYzX1w=/0x0/filters:format(png)/pic8778267.png",
+			"dateAdded": "2026-03-28 21:34:46",
+			"playCount": 7,
+			"lastPlayed": "2026-03-28 21:34:46",
+			"userRating": null,
+			"weight": 0,
+			"playerCount": {
+				"min": 2,
+				"max": 2
+			},
+			"bggRating": 6.94447,
+			"comment": ""
+		},
+		{
+			"bggId": 440606,
+			"collId": 144011573,
+			"name": "Compile: Main 2",
+			"yearPublished": 2025,
+			"thumbnailUrl": "https://cf.geekdo-images.com/NlEJZ82WjMzIdPyEcQJiUQ__small/img/4SPm5ULu1rmxaQ8nO_i7ibJqyrM=/fit-in/200x150/filters:strip_icc()/pic8883907.jpg",
+			"imageUrl": "https://cf.geekdo-images.com/NlEJZ82WjMzIdPyEcQJiUQ__original/img/laD5y23DHl2_gvBMn7JoZU1y_BQ=/0x0/filters:format(jpeg)/pic8883907.jpg",
+			"dateAdded": "2026-03-28 21:34:51",
+			"playCount": 0,
+			"lastPlayed": null,
+			"userRating": null,
+			"weight": 0,
+			"playerCount": {
+				"min": 2,
+				"max": 2
+			},
+			"bggRating": 6.15078,
 			"comment": ""
 		},
 		{
@@ -1539,7 +1653,7 @@
 				"min": 2,
 				"max": 6
 			},
-			"bggRating": 7.58275,
+			"bggRating": 7.59074,
 			"comment": ""
 		},
 		{
@@ -1577,7 +1691,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.60628,
+			"bggRating": 5.60497,
 			"comment": ""
 		},
 		{
@@ -1596,7 +1710,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.55562,
+			"bggRating": 6.54405,
 			"comment": ""
 		},
 		{
@@ -1615,7 +1729,7 @@
 				"min": 3,
 				"max": 5
 			},
-			"bggRating": 7.31449,
+			"bggRating": 7.31321,
 			"comment": ""
 		},
 		{
@@ -1634,7 +1748,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.83497,
+			"bggRating": 5.83462,
 			"comment": ""
 		},
 		{
@@ -1653,7 +1767,7 @@
 				"min": 2,
 				"max": 6
 			},
-			"bggRating": 6.27889,
+			"bggRating": 6.27747,
 			"comment": ""
 		},
 		{
@@ -1672,7 +1786,7 @@
 				"min": 2,
 				"max": 6
 			},
-			"bggRating": 6.83236,
+			"bggRating": 6.83169,
 			"comment": ""
 		},
 		{
@@ -1691,7 +1805,7 @@
 				"min": 3,
 				"max": 6
 			},
-			"bggRating": 6.29686,
+			"bggRating": 6.29243,
 			"comment": ""
 		},
 		{
@@ -1710,7 +1824,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 7.80969,
+			"bggRating": 7.80321,
 			"comment": ""
 		},
 		{
@@ -1727,9 +1841,9 @@
 			"weight": 0,
 			"playerCount": {
 				"min": 2,
-				"max": 4
+				"max": 2
 			},
-			"bggRating": 6.39584,
+			"bggRating": 6.4148,
 			"comment": ""
 		},
 		{
@@ -1748,7 +1862,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.79833,
+			"bggRating": 7.80174,
 			"comment": ""
 		},
 		{
@@ -1767,7 +1881,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.14915,
+			"bggRating": 7.14638,
 			"comment": "This isn&#039;t a blind review, I have played the game.  It&#039;s great!"
 		},
 		{
@@ -1775,8 +1889,8 @@
 			"collId": 82367264,
 			"name": "Cthulhu: Death May Die",
 			"yearPublished": 2019,
-			"thumbnailUrl": "https://cf.geekdo-images.com/e8D09pfFsUsoX1D81EeoZg__small/img/j03wBmZg1Kp5QaaIu9p-O8XRqeU=/fit-in/200x150/filters:strip_icc()/pic4705171.jpg",
-			"imageUrl": "https://cf.geekdo-images.com/e8D09pfFsUsoX1D81EeoZg__original/img/8_FKwPd8bBL3PFjef8Yjz_sFWSk=/0x0/filters:format(jpeg)/pic4705171.jpg",
+			"thumbnailUrl": "https://cf.geekdo-images.com/SPpzri7fwLRgVWMKOocHxw__small/img/5efn0qgWmGKa-JNYzcD3wAx7ybU=/fit-in/200x150/filters:strip_icc()/pic9712872.png",
+			"imageUrl": "https://cf.geekdo-images.com/SPpzri7fwLRgVWMKOocHxw__original/img/4TI0rpw6w0EpkgfvQpusj5Idmpw=/0x0/filters:format(png)/pic9712872.png",
 			"dateAdded": "2024-08-26 17:15:51",
 			"playCount": 2,
 			"lastPlayed": "2024-08-26 17:15:51",
@@ -1786,7 +1900,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 7.76006,
+			"bggRating": 7.76176,
 			"comment": ""
 		},
 		{
@@ -1805,27 +1919,8 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 6.68909,
+			"bggRating": 6.78023,
 			"comment": ""
-		},
-		{
-			"bggId": 54998,
-			"collId": 20838190,
-			"name": "Cyclades",
-			"yearPublished": 2009,
-			"thumbnailUrl": "https://cf.geekdo-images.com/6QbaJOS8acWkJ6gSYI0KaQ__small/img/YSxmsx_zxqdVoqNVGsNnAqyH1lc=/fit-in/200x150/filters:strip_icc()/pic584779.jpg",
-			"imageUrl": "https://cf.geekdo-images.com/6QbaJOS8acWkJ6gSYI0KaQ__original/img/KOGjizqhVHXlKWxXkuyxkHRCNnA=/0x0/filters:format(jpeg)/pic584779.jpg",
-			"dateAdded": "2015-05-31 03:50:41",
-			"playCount": 6,
-			"lastPlayed": "2015-05-31 03:50:41",
-			"userRating": 8.9,
-			"weight": 0,
-			"playerCount": {
-				"min": 2,
-				"max": 5
-			},
-			"bggRating": 7.2457,
-			"comment": "Great game, and I love the Greek theme.  Really fun w/ the Hades expansion."
 		},
 		{
 			"bggId": 380619,
@@ -1843,7 +1938,7 @@
 				"min": 2,
 				"max": 6
 			},
-			"bggRating": 6.79022,
+			"bggRating": 6.90865,
 			"comment": ""
 		},
 		{
@@ -1862,7 +1957,7 @@
 				"min": 3,
 				"max": 7
 			},
-			"bggRating": 6.37074,
+			"bggRating": 6.36277,
 			"comment": ""
 		},
 		{
@@ -1881,7 +1976,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 5.61268,
+			"bggRating": 5.61173,
 			"comment": ""
 		},
 		{
@@ -1892,7 +1987,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/_pEgLxT-NQ3O1JR0MQYe8g__small/img/5Vd23VAJjQ2unZrtFdDbbVzF0Xw=/fit-in/200x150/filters:strip_icc()/pic6314060.png",
 			"imageUrl": "https://cf.geekdo-images.com/_pEgLxT-NQ3O1JR0MQYe8g__original/img/sFzIGhDs41kbycvIKcDFhHjykCk=/0x0/filters:format(png)/pic6314060.png",
 			"dateAdded": "2018-04-12 18:06:32",
-			"playCount": 2,
+			"playCount": 3,
 			"lastPlayed": "2018-04-12 18:06:32",
 			"userRating": 7,
 			"weight": 0,
@@ -1900,7 +1995,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.49254,
+			"bggRating": 6.48665,
 			"comment": ""
 		},
 		{
@@ -1919,7 +2014,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 7.27296,
+			"bggRating": 7.26898,
 			"comment": ""
 		},
 		{
@@ -1938,7 +2033,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 7.06763,
+			"bggRating": 7.06405,
 			"comment": ""
 		},
 		{
@@ -1957,7 +2052,7 @@
 				"min": 4,
 				"max": 12
 			},
-			"bggRating": 7.21822,
+			"bggRating": 7.21316,
 			"comment": ""
 		},
 		{
@@ -1967,16 +2062,16 @@
 			"yearPublished": 2025,
 			"thumbnailUrl": "https://cf.geekdo-images.com/QIiMCGc9zpv_XKAI-zbqmQ__small/img/WaxhjFWQeablIaDyzDTe9XWpOlw=/fit-in/200x150/filters:strip_icc()/pic8907989.jpg",
 			"imageUrl": "https://cf.geekdo-images.com/QIiMCGc9zpv_XKAI-zbqmQ__original/img/2riPUBkY_TmfAnyLQUHeENJEEyI=/0x0/filters:format(jpeg)/pic8907989.jpg",
-			"dateAdded": "2025-11-26 00:59:06",
-			"playCount": 1,
-			"lastPlayed": "2025-11-26 00:59:06",
-			"userRating": 8,
+			"dateAdded": "2026-03-06 03:29:23",
+			"playCount": 3,
+			"lastPlayed": "2026-03-06 03:29:23",
+			"userRating": 8.5,
 			"weight": 0,
 			"playerCount": {
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 5.99787,
+			"bggRating": 6.17006,
 			"comment": ""
 		},
 		{
@@ -1995,7 +2090,7 @@
 				"min": 3,
 				"max": 8
 			},
-			"bggRating": 7.54974,
+			"bggRating": 7.54694,
 			"comment": ""
 		},
 		{
@@ -2014,7 +2109,26 @@
 				"min": 4,
 				"max": 8
 			},
-			"bggRating": 6.71831,
+			"bggRating": 6.71158,
+			"comment": ""
+		},
+		{
+			"bggId": 311725,
+			"collId": 95925878,
+			"name": "Dice Theme Park",
+			"yearPublished": 2022,
+			"thumbnailUrl": "https://cf.geekdo-images.com/f-ayXeVk4snrTKfUwoZyig__small/img/-TOLapifHCPr0GulTHNdGH5YSis=/fit-in/200x150/filters:strip_icc()/pic5480434.jpg",
+			"imageUrl": "https://cf.geekdo-images.com/f-ayXeVk4snrTKfUwoZyig__original/img/CBk9mex-uxtu16WtLhqSH0cQTKc=/0x0/filters:format(jpeg)/pic5480434.jpg",
+			"dateAdded": "2026-08-01 17:50:48",
+			"playCount": 2,
+			"lastPlayed": "2026-08-01 17:50:48",
+			"userRating": 8,
+			"weight": 0,
+			"playerCount": {
+				"min": 1,
+				"max": 4
+			},
+			"bggRating": 5.80592,
 			"comment": ""
 		},
 		{
@@ -2033,7 +2147,7 @@
 				"min": 3,
 				"max": 5
 			},
-			"bggRating": 5.87436,
+			"bggRating": 5.87357,
 			"comment": ""
 		},
 		{
@@ -2052,7 +2166,7 @@
 				"min": 3,
 				"max": 6
 			},
-			"bggRating": 7.06751,
+			"bggRating": 7.06341,
 			"comment": ""
 		},
 		{
@@ -2071,7 +2185,7 @@
 				"min": 3,
 				"max": 6
 			},
-			"bggRating": 6.71702,
+			"bggRating": 6.70974,
 			"comment": ""
 		},
 		{
@@ -2090,7 +2204,7 @@
 				"min": 3,
 				"max": 12
 			},
-			"bggRating": 7.14545,
+			"bggRating": 7.14118,
 			"comment": ""
 		},
 		{
@@ -2109,7 +2223,7 @@
 				"min": 3,
 				"max": 5
 			},
-			"bggRating": 6.71397,
+			"bggRating": 6.70809,
 			"comment": ""
 		},
 		{
@@ -2128,7 +2242,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.85697,
+			"bggRating": 6.85476,
 			"comment": ""
 		},
 		{
@@ -2147,7 +2261,7 @@
 				"min": 1,
 				"max": 2
 			},
-			"bggRating": 6.34375,
+			"bggRating": 6.42577,
 			"comment": ""
 		},
 		{
@@ -2166,7 +2280,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 5.51856,
+			"bggRating": 5.51778,
 			"comment": ""
 		},
 		{
@@ -2185,7 +2299,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 6.10302,
+			"bggRating": 6.09957,
 			"comment": ""
 		},
 		{
@@ -2204,7 +2318,7 @@
 				"min": 4,
 				"max": 6
 			},
-			"bggRating": 5.54141,
+			"bggRating": 5.54113,
 			"comment": ""
 		},
 		{
@@ -2223,7 +2337,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 8.2238,
+			"bggRating": 8.2196,
 			"comment": ""
 		},
 		{
@@ -2242,7 +2356,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.95665,
+			"bggRating": 5.94959,
 			"comment": ""
 		},
 		{
@@ -2261,7 +2375,7 @@
 				"min": 1,
 				"max": 6
 			},
-			"bggRating": 6.42369,
+			"bggRating": 6.41663,
 			"comment": ""
 		},
 		{
@@ -2280,7 +2394,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.06013,
+			"bggRating": 7.05501,
 			"comment": ""
 		},
 		{
@@ -2299,7 +2413,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.11753,
+			"bggRating": 7.11122,
 			"comment": ""
 		},
 		{
@@ -2318,7 +2432,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 6.15011,
+			"bggRating": 6.14154,
 			"comment": ""
 		},
 		{
@@ -2337,7 +2451,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.80544,
+			"bggRating": 5.79914,
 			"comment": "I use these for Song of Blades and Heroes and Of Gods and Mortals."
 		},
 		{
@@ -2356,7 +2470,7 @@
 				"min": 2,
 				"max": 99
 			},
-			"bggRating": 5.79464,
+			"bggRating": 5.79007,
 			"comment": ""
 		},
 		{
@@ -2375,7 +2489,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 7.51963,
+			"bggRating": 7.5175,
 			"comment": ""
 		},
 		{
@@ -2394,7 +2508,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 7.51963,
+			"bggRating": 7.5175,
 			"comment": ""
 		},
 		{
@@ -2413,7 +2527,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 7.35564,
+			"bggRating": 7.35275,
 			"comment": ""
 		},
 		{
@@ -2432,7 +2546,7 @@
 				"min": 3,
 				"max": 99
 			},
-			"bggRating": 6.33458,
+			"bggRating": 6.32224,
 			"comment": ""
 		},
 		{
@@ -2451,7 +2565,7 @@
 				"min": 2,
 				"max": 6
 			},
-			"bggRating": 7.96089,
+			"bggRating": 7.9582,
 			"comment": ""
 		},
 		{
@@ -2470,7 +2584,7 @@
 				"min": 1,
 				"max": 8
 			},
-			"bggRating": 7.49199,
+			"bggRating": 7.49192,
 			"comment": "Arkham Horror upgrade."
 		},
 		{
@@ -2489,7 +2603,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.85718,
+			"bggRating": 6.85398,
 			"comment": ""
 		},
 		{
@@ -2508,7 +2622,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 6.24554,
+			"bggRating": 6.48275,
 			"comment": ""
 		},
 		{
@@ -2527,7 +2641,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.68914,
+			"bggRating": 6.68058,
 			"comment": ""
 		},
 		{
@@ -2546,7 +2660,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.0405,
+			"bggRating": 6.03612,
 			"comment": ""
 		},
 		{
@@ -2565,7 +2679,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 6.57607,
+			"bggRating": 6.57698,
 			"comment": ""
 		},
 		{
@@ -2584,7 +2698,7 @@
 				"min": 2,
 				"max": 8
 			},
-			"bggRating": 6.45765,
+			"bggRating": 6.4516,
 			"comment": ""
 		},
 		{
@@ -2603,7 +2717,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 6.75078,
+			"bggRating": 6.74961,
 			"comment": ""
 		},
 		{
@@ -2622,7 +2736,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 6.43444,
+			"bggRating": 6.44382,
 			"comment": ""
 		},
 		{
@@ -2641,7 +2755,7 @@
 				"min": 1,
 				"max": 6
 			},
-			"bggRating": 7.50587,
+			"bggRating": 7.51741,
 			"comment": ""
 		},
 		{
@@ -2660,7 +2774,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.67336,
+			"bggRating": 5.67229,
 			"comment": ""
 		},
 		{
@@ -2679,7 +2793,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.58672,
+			"bggRating": 5.58924,
 			"comment": ""
 		},
 		{
@@ -2698,7 +2812,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.57593,
+			"bggRating": 5.57868,
 			"comment": ""
 		},
 		{
@@ -2717,7 +2831,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.641,
+			"bggRating": 5.63854,
 			"comment": ""
 		},
 		{
@@ -2736,7 +2850,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.65148,
+			"bggRating": 5.64884,
 			"comment": ""
 		},
 		{
@@ -2755,7 +2869,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.70385,
+			"bggRating": 5.70582,
 			"comment": ""
 		},
 		{
@@ -2774,7 +2888,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.44181,
+			"bggRating": 6.43724,
 			"comment": ""
 		},
 		{
@@ -2804,7 +2918,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/u1cwi9BWSKsPxSkVO0BzbA__small/img/5G45GN8CE7pq38fJMMocmPtV4_U=/fit-in/200x150/filters:strip_icc()/pic7570101.png",
 			"imageUrl": "https://cf.geekdo-images.com/u1cwi9BWSKsPxSkVO0BzbA__original/img/jTY6_PRF6FrUgInfMajzobVy0S8=/0x0/filters:format(png)/pic7570101.png",
 			"dateAdded": "2024-05-28 16:26:49",
-			"playCount": 11,
+			"playCount": 12,
 			"lastPlayed": "2024-05-28 16:26:49",
 			"userRating": 8.8,
 			"weight": 0,
@@ -2812,7 +2926,7 @@
 				"min": 2,
 				"max": 6
 			},
-			"bggRating": 7.25935,
+			"bggRating": 7.27011,
 			"comment": ""
 		},
 		{
@@ -2831,7 +2945,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.94092,
+			"bggRating": 7.93978,
 			"comment": ""
 		},
 		{
@@ -2841,16 +2955,16 @@
 			"yearPublished": 2014,
 			"thumbnailUrl": "https://cf.geekdo-images.com/0w8go6cfvlpgJKydHUkDtA__small/img/0z1o-kU2xYwmVO8oNszdt1V4K54=/fit-in/200x150/filters:strip_icc()/pic2225968.png",
 			"imageUrl": "https://cf.geekdo-images.com/0w8go6cfvlpgJKydHUkDtA__original/img/322N77t8F7uTev-U_WCqX5uqmEE=/0x0/filters:format(png)/pic2225968.png",
-			"dateAdded": "2023-09-22 02:26:09",
+			"dateAdded": "2026-07-24 22:57:13",
 			"playCount": 3,
-			"lastPlayed": "2023-09-22 02:26:09",
-			"userRating": 9.4,
+			"lastPlayed": "2026-07-24 22:57:13",
+			"userRating": 9.6,
 			"weight": 0,
 			"playerCount": {
 				"min": 1,
 				"max": 2
 			},
-			"bggRating": 7.5927,
+			"bggRating": 7.59208,
 			"comment": ""
 		},
 		{
@@ -2869,7 +2983,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 7.09366,
+			"bggRating": 7.08674,
 			"comment": ""
 		},
 		{
@@ -2888,7 +3002,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.21636,
+			"bggRating": 7.21508,
 			"comment": ""
 		},
 		{
@@ -2907,7 +3021,7 @@
 				"min": 2,
 				"max": 6
 			},
-			"bggRating": 6.96807,
+			"bggRating": 6.96273,
 			"comment": ""
 		},
 		{
@@ -2926,7 +3040,7 @@
 				"min": 1,
 				"max": 6
 			},
-			"bggRating": 5.67699,
+			"bggRating": 5.69736,
 			"comment": ""
 		},
 		{
@@ -2956,7 +3070,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__small/img/_dNNsSelyw9qUEOIXBRt6PE_1us=/fit-in/200x150/filters:strip_icc()/pic8780246.jpg",
 			"imageUrl": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__original/img/hK6k-x_GYfooemrkkRuF0bTvKxE=/0x0/filters:format(jpeg)/pic8780246.jpg",
 			"dateAdded": "2025-08-10 17:18:58",
-			"playCount": 3,
+			"playCount": 6,
 			"lastPlayed": "2025-08-10 17:18:58",
 			"userRating": 8.2,
 			"weight": 0,
@@ -2964,7 +3078,7 @@
 				"min": 3,
 				"max": 18
 			},
-			"bggRating": 6.97788,
+			"bggRating": 6.99568,
 			"comment": ""
 		},
 		{
@@ -2983,7 +3097,7 @@
 				"min": 2,
 				"max": 1
 			},
-			"bggRating": 5.53966,
+			"bggRating": 5.53807,
 			"comment": ""
 		},
 		{
@@ -3002,7 +3116,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 7.77446,
+			"bggRating": 7.77474,
 			"comment": ""
 		},
 		{
@@ -3010,8 +3124,8 @@
 			"collId": 139636631,
 			"name": "Food Chain Magnate: Deluxe Edition",
 			"yearPublished": 2025,
-			"thumbnailUrl": "https://cf.geekdo-images.com/BB63mm-N2KZXgyLpjsEYrg__small/img/hYkHtMSnJAi8DWXn5d3AC1YqK70=/fit-in/200x150/filters:strip_icc()/pic8611458.png",
-			"imageUrl": "https://cf.geekdo-images.com/BB63mm-N2KZXgyLpjsEYrg__original/img/D6u0XqAo73ZoVHuAvbKg__j3i9s=/0x0/filters:format(png)/pic8611458.png",
+			"thumbnailUrl": "https://cf.geekdo-images.com/kXmgs_kaopb8De0KtvLSyw__small/img/8GDiwjiLEjPLX93Vpe9wY5jz1Bw=/fit-in/200x150/filters:strip_icc()/pic9603074.png",
+			"imageUrl": "https://cf.geekdo-images.com/kXmgs_kaopb8De0KtvLSyw__original/img/5z5hnIqKEtlVRrnL57zABw469I8=/0x0/filters:format(png)/pic9603074.png",
 			"dateAdded": "2026-01-28 00:33:42",
 			"playCount": 1,
 			"lastPlayed": "2026-01-28 00:33:42",
@@ -3021,7 +3135,7 @@
 				"min": 2,
 				"max": 6
 			},
-			"bggRating": 5.72923,
+			"bggRating": 5.87989,
 			"comment": ""
 		},
 		{
@@ -3040,7 +3154,26 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 7.45084,
+			"bggRating": 7.45882,
+			"comment": ""
+		},
+		{
+			"bggId": 422426,
+			"collId": 148026999,
+			"name": "Foundations of Rome (Maximus Edition)",
+			"yearPublished": 2024,
+			"thumbnailUrl": "https://cf.geekdo-images.com/XTFurlE17pMOB4m01zi5XA__small/img/Y7-AC1qjOT3LVKawt63pZntIAjA=/fit-in/200x150/filters:strip_icc()/pic8254976.jpg",
+			"imageUrl": "https://cf.geekdo-images.com/XTFurlE17pMOB4m01zi5XA__original/img/DawEqLFNkMsW3yHH_cajxQateSo=/0x0/filters:format(jpeg)/pic8254976.jpg",
+			"dateAdded": "2026-08-01 17:51:47",
+			"playCount": 0,
+			"lastPlayed": null,
+			"userRating": null,
+			"weight": 0,
+			"playerCount": {
+				"min": 2,
+				"max": 5
+			},
+			"bggRating": 5.691,
 			"comment": ""
 		},
 		{
@@ -3059,7 +3192,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 6.25946,
+			"bggRating": 6.2808,
 			"comment": ""
 		},
 		{
@@ -3078,7 +3211,7 @@
 				"min": 3,
 				"max": 5
 			},
-			"bggRating": 6.80015,
+			"bggRating": 6.79448,
 			"comment": ""
 		},
 		{
@@ -3088,16 +3221,16 @@
 			"yearPublished": 2023,
 			"thumbnailUrl": "https://cf.geekdo-images.com/DuZnEeI06_5UKpv4t28Kyg__small/img/9DsH5vXeOaLACqql6hK0A0U8Hp0=/fit-in/200x150/filters:strip_icc()/pic7429703.jpg",
 			"imageUrl": "https://cf.geekdo-images.com/DuZnEeI06_5UKpv4t28Kyg__original/img/72dgRrE3TIpiI_vtAHKsYS9B1C0=/0x0/filters:format(jpeg)/pic7429703.jpg",
-			"dateAdded": "2023-08-29 03:02:43",
+			"dateAdded": "2026-08-03 18:44:38",
 			"playCount": 2,
-			"lastPlayed": "2023-08-29 03:02:43",
+			"lastPlayed": "2026-08-03 18:44:38",
 			"userRating": null,
 			"weight": 0,
 			"playerCount": {
 				"min": 3,
 				"max": 7
 			},
-			"bggRating": 6.27722,
+			"bggRating": 6.28458,
 			"comment": ""
 		},
 		{
@@ -3116,7 +3249,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.04257,
+			"bggRating": 7.11024,
 			"comment": ""
 		},
 		{
@@ -3135,7 +3268,7 @@
 				"min": 2,
 				"max": 8
 			},
-			"bggRating": 6.09788,
+			"bggRating": 6.08803,
 			"comment": ""
 		},
 		{
@@ -3154,7 +3287,7 @@
 				"min": 2,
 				"max": 1
 			},
-			"bggRating": 5.55724,
+			"bggRating": 5.55844,
 			"comment": ""
 		},
 		{
@@ -3173,7 +3306,7 @@
 				"min": 2,
 				"max": 8
 			},
-			"bggRating": 5.87059,
+			"bggRating": 5.8786,
 			"comment": ""
 		},
 		{
@@ -3192,7 +3325,7 @@
 				"min": 3,
 				"max": 20
 			},
-			"bggRating": 5.9982,
+			"bggRating": 5.98555,
 			"comment": ""
 		},
 		{
@@ -3203,7 +3336,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/iLiUp891Wqb5EE0gBqjBaA__small/img/Jg01alIAt8H1KI6gFhS-naLJans=/fit-in/200x150/filters:strip_icc()/pic4411188.jpg",
 			"imageUrl": "https://cf.geekdo-images.com/iLiUp891Wqb5EE0gBqjBaA__original/img/XowehLK_AtTFigFRNeLqCMmVXNo=/0x0/filters:format(jpeg)/pic4411188.jpg",
 			"dateAdded": "2022-01-02 13:42:02",
-			"playCount": 6,
+			"playCount": 7,
 			"lastPlayed": "2022-01-02 13:42:02",
 			"userRating": 7.9,
 			"weight": 0,
@@ -3211,7 +3344,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 7.09212,
+			"bggRating": 7.08638,
 			"comment": ""
 		},
 		{
@@ -3230,7 +3363,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 8.08907,
+			"bggRating": 8.08471,
 			"comment": ""
 		},
 		{
@@ -3249,7 +3382,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 5.83317,
+			"bggRating": 5.85158,
 			"comment": ""
 		},
 		{
@@ -3268,7 +3401,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.89205,
+			"bggRating": 6.90305,
 			"comment": ""
 		},
 		{
@@ -3287,7 +3420,7 @@
 				"min": 3,
 				"max": 6
 			},
-			"bggRating": 7.30307,
+			"bggRating": 7.29803,
 			"comment": ""
 		},
 		{
@@ -3306,7 +3439,7 @@
 				"min": 2,
 				"max": 8
 			},
-			"bggRating": 6.12887,
+			"bggRating": 6.11995,
 			"comment": ""
 		},
 		{
@@ -3325,7 +3458,7 @@
 				"min": 2,
 				"max": 8
 			},
-			"bggRating": 6.19638,
+			"bggRating": 6.19933,
 			"comment": ""
 		},
 		{
@@ -3344,7 +3477,7 @@
 				"min": 3,
 				"max": 4
 			},
-			"bggRating": 5.67551,
+			"bggRating": 5.67456,
 			"comment": ""
 		},
 		{
@@ -3363,7 +3496,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.04395,
+			"bggRating": 7.03757,
 			"comment": "I adore the theme and the mechanics.  A wonderful co-op game."
 		},
 		{
@@ -3382,7 +3515,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 5.63039,
+			"bggRating": 5.63805,
 			"comment": ""
 		},
 		{
@@ -3401,7 +3534,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.3036,
+			"bggRating": 7.30196,
 			"comment": ""
 		},
 		{
@@ -3420,7 +3553,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 7.04393,
+			"bggRating": 7.04159,
 			"comment": ""
 		},
 		{
@@ -3439,7 +3572,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 6.81358,
+			"bggRating": 6.8147,
 			"comment": ""
 		},
 		{
@@ -3458,7 +3591,7 @@
 				"min": 4,
 				"max": 8
 			},
-			"bggRating": 6.09582,
+			"bggRating": 6.09219,
 			"comment": ""
 		},
 		{
@@ -3477,7 +3610,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 7.10981,
+			"bggRating": 7.10076,
 			"comment": ""
 		},
 		{
@@ -3496,7 +3629,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.86717,
+			"bggRating": 6.86087,
 			"comment": ""
 		},
 		{
@@ -3515,7 +3648,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.55681,
+			"bggRating": 5.55535,
 			"comment": ""
 		},
 		{
@@ -3534,7 +3667,7 @@
 				"min": 4,
 				"max": 10
 			},
-			"bggRating": 6.72847,
+			"bggRating": 6.75869,
 			"comment": ""
 		},
 		{
@@ -3553,7 +3686,7 @@
 				"min": 1,
 				"max": 6
 			},
-			"bggRating": 7.40894,
+			"bggRating": 7.40826,
 			"comment": ""
 		},
 		{
@@ -3572,7 +3705,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.20337,
+			"bggRating": 7.20194,
 			"comment": ""
 		},
 		{
@@ -3591,7 +3724,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.92255,
+			"bggRating": 6.92029,
 			"comment": ""
 		},
 		{
@@ -3610,7 +3743,7 @@
 				"min": 3,
 				"max": 6
 			},
-			"bggRating": 5.7105,
+			"bggRating": 5.71197,
 			"comment": ""
 		},
 		{
@@ -3629,7 +3762,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 6.15459,
+			"bggRating": 6.14607,
 			"comment": ""
 		},
 		{
@@ -3648,7 +3781,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 7.46844,
+			"bggRating": 7.47252,
 			"comment": ""
 		},
 		{
@@ -3667,7 +3800,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.05972,
+			"bggRating": 6.0588,
 			"comment": ""
 		},
 		{
@@ -3686,7 +3819,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.8189,
+			"bggRating": 7.82508,
 			"comment": ""
 		},
 		{
@@ -3705,7 +3838,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.0529,
+			"bggRating": 6.04765,
 			"comment": ""
 		},
 		{
@@ -3724,7 +3857,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.55283,
+			"bggRating": 5.55039,
 			"comment": ""
 		},
 		{
@@ -3743,7 +3876,7 @@
 				"min": 2,
 				"max": 6
 			},
-			"bggRating": 6.54265,
+			"bggRating": 6.54663,
 			"comment": ""
 		},
 		{
@@ -3762,7 +3895,26 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 6.67612,
+			"bggRating": 6.66651,
+			"comment": ""
+		},
+		{
+			"bggId": 355326,
+			"collId": 148027083,
+			"name": "Heroes of Might and Magic III: The Board Game",
+			"yearPublished": 2024,
+			"thumbnailUrl": "https://cf.geekdo-images.com/oI8jrUmwBtlWyCiIuYH6YQ__small/img/9y2YUB27rgUmeYby_M39zGOjZAw=/fit-in/200x150/filters:strip_icc()/pic8107311.jpg",
+			"imageUrl": "https://cf.geekdo-images.com/oI8jrUmwBtlWyCiIuYH6YQ__original/img/IIa8Wvb-yLAoaU8J9oPGRwNXi7w=/0x0/filters:format(jpeg)/pic8107311.jpg",
+			"dateAdded": "2026-08-01 17:54:01",
+			"playCount": 0,
+			"lastPlayed": null,
+			"userRating": null,
+			"weight": 0,
+			"playerCount": {
+				"min": 1,
+				"max": 3
+			},
+			"bggRating": 6.36159,
 			"comment": ""
 		},
 		{
@@ -3781,7 +3933,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.5719,
+			"bggRating": 6.57122,
 			"comment": ""
 		},
 		{
@@ -3800,7 +3952,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 5.71991,
+			"bggRating": 5.71564,
 			"comment": ""
 		},
 		{
@@ -3838,7 +3990,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 5.5894,
+			"bggRating": 5.58831,
 			"comment": ""
 		},
 		{
@@ -3857,7 +4009,7 @@
 				"min": 1,
 				"max": 3
 			},
-			"bggRating": 6.99909,
+			"bggRating": 7.0255,
 			"comment": ""
 		},
 		{
@@ -3876,7 +4028,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.09741,
+			"bggRating": 7.08929,
 			"comment": ""
 		},
 		{
@@ -3895,7 +4047,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.51568,
+			"bggRating": 6.52317,
 			"comment": ""
 		},
 		{
@@ -3914,7 +4066,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.96515,
+			"bggRating": 5.96702,
 			"comment": ""
 		},
 		{
@@ -3933,7 +4085,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.53054,
+			"bggRating": 7.53127,
 			"comment": ""
 		},
 		{
@@ -3952,7 +4104,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 7.10759,
+			"bggRating": 7.11321,
 			"comment": ""
 		},
 		{
@@ -3971,7 +4123,7 @@
 				"min": 1,
 				"max": 2
 			},
-			"bggRating": 6.45659,
+			"bggRating": 6.50316,
 			"comment": ""
 		},
 		{
@@ -3990,7 +4142,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.37275,
+			"bggRating": 7.35931,
 			"comment": ""
 		},
 		{
@@ -4009,7 +4161,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 5.95498,
+			"bggRating": 5.97252,
 			"comment": ""
 		},
 		{
@@ -4028,7 +4180,7 @@
 				"min": 1,
 				"max": 2
 			},
-			"bggRating": 6.43663,
+			"bggRating": 6.43461,
 			"comment": ""
 		},
 		{
@@ -4039,7 +4191,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/od4vDTdXGPSVc-kjLqM11w__small/img/T2ukKoCUNv2LMxg5GOlOb8WTzNI=/fit-in/200x150/filters:strip_icc()/pic4651175.jpg",
 			"imageUrl": "https://cf.geekdo-images.com/od4vDTdXGPSVc-kjLqM11w__original/img/sN8TnSkFGCzNM01b_drFxwYnqlM=/0x0/filters:format(jpeg)/pic4651175.jpg",
 			"dateAdded": "2021-06-20 17:46:51",
-			"playCount": 4,
+			"playCount": 5,
 			"lastPlayed": "2021-06-20 17:46:51",
 			"userRating": 8.22,
 			"weight": 0,
@@ -4047,7 +4199,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 7.38797,
+			"bggRating": 7.38437,
 			"comment": ""
 		},
 		{
@@ -4066,7 +4218,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.36298,
+			"bggRating": 7.36136,
 			"comment": ""
 		},
 		{
@@ -4077,7 +4229,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/TAdE4z_bwAAjJlmPrkmKhA__small/img/pwgtQn8ArKjwBxk3bnDuIVAPWgU=/fit-in/200x150/filters:strip_icc()/pic6601629.jpg",
 			"imageUrl": "https://cf.geekdo-images.com/TAdE4z_bwAAjJlmPrkmKhA__original/img/V5wLvuhU3mKNr6PUf1cxyeemh00=/0x0/filters:format(jpeg)/pic6601629.jpg",
 			"dateAdded": "2026-01-28 00:35:23",
-			"playCount": 1,
+			"playCount": 2,
 			"lastPlayed": "2026-01-28 00:35:23",
 			"userRating": 8.5,
 			"weight": 0,
@@ -4085,7 +4237,7 @@
 				"min": 1,
 				"max": 6
 			},
-			"bggRating": 7.33766,
+			"bggRating": 7.34787,
 			"comment": ""
 		},
 		{
@@ -4096,7 +4248,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/vidEoAQGKIucMiHEwVE-tQ__small/img/tuaYCNt7vesWf83MSn7_Dwa64m4=/fit-in/200x150/filters:strip_icc()/pic3121227.jpg",
 			"imageUrl": "https://cf.geekdo-images.com/vidEoAQGKIucMiHEwVE-tQ__original/img/c8_pAZOeAxfE6vOoUTUYy3G-z5Y=/0x0/filters:format(jpeg)/pic3121227.jpg",
 			"dateAdded": "2025-08-10 17:18:14",
-			"playCount": 25,
+			"playCount": 27,
 			"lastPlayed": "2025-08-10 17:18:14",
 			"userRating": 9,
 			"weight": 0,
@@ -4104,7 +4256,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.53899,
+			"bggRating": 6.53622,
 			"comment": ""
 		},
 		{
@@ -4123,7 +4275,7 @@
 				"min": 2,
 				"max": 6
 			},
-			"bggRating": 5.57753,
+			"bggRating": 5.57925,
 			"comment": ""
 		},
 		{
@@ -4142,7 +4294,7 @@
 				"min": 3,
 				"max": 7
 			},
-			"bggRating": 7.43955,
+			"bggRating": 7.43626,
 			"comment": ""
 		},
 		{
@@ -4161,26 +4313,7 @@
 				"min": 2,
 				"max": 6
 			},
-			"bggRating": 6.50012,
-			"comment": ""
-		},
-		{
-			"bggId": 127023,
-			"collId": 20599263,
-			"name": "Kemet",
-			"yearPublished": 2012,
-			"thumbnailUrl": "https://cf.geekdo-images.com/PKgxVoGBAW6Y-ruuOfC6_w__small/img/8NLV1sF27dLV4BM3_p7vHx4yx-E=/fit-in/200x150/filters:strip_icc()/pic1431241.jpg",
-			"imageUrl": "https://cf.geekdo-images.com/PKgxVoGBAW6Y-ruuOfC6_w__original/img/cy1zWQrZcxhFIkaRVfthT9ei_uk=/0x0/filters:format(jpeg)/pic1431241.jpg",
-			"dateAdded": "2014-12-04 01:53:35",
-			"playCount": 5,
-			"lastPlayed": "2014-12-04 01:53:35",
-			"userRating": 8.75,
-			"weight": 0,
-			"playerCount": {
-				"min": 2,
-				"max": 5
-			},
-			"bggRating": 7.36645,
+			"bggRating": 6.49951,
 			"comment": ""
 		},
 		{
@@ -4199,7 +4332,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 7.19297,
+			"bggRating": 7.19141,
 			"comment": ""
 		},
 		{
@@ -4218,7 +4351,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 5.80989,
+			"bggRating": 5.81736,
 			"comment": ""
 		},
 		{
@@ -4237,7 +4370,7 @@
 				"min": 2,
 				"max": 6
 			},
-			"bggRating": 7.50254,
+			"bggRating": 7.49908,
 			"comment": ""
 		},
 		{
@@ -4256,7 +4389,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.12084,
+			"bggRating": 7.11917,
 			"comment": ""
 		},
 		{
@@ -4267,7 +4400,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/LenzJBOHboAGU0cUIqAZPQ__small/img/Z3yFJIp9rmSmcGoTiqGeTkKCnQU=/fit-in/200x150/filters:strip_icc()/pic2931007.jpg",
 			"imageUrl": "https://cf.geekdo-images.com/LenzJBOHboAGU0cUIqAZPQ__original/img/-dnx4zkvdOn3CMVHpXIfESazj40=/0x0/filters:format(jpeg)/pic2931007.jpg",
 			"dateAdded": "2021-05-11 02:51:48",
-			"playCount": 115,
+			"playCount": 132,
 			"lastPlayed": "2021-05-11 02:51:48",
 			"userRating": 9.2,
 			"weight": 0,
@@ -4275,7 +4408,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.61961,
+			"bggRating": 7.61341,
 			"comment": ""
 		},
 		{
@@ -4294,7 +4427,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.96308,
+			"bggRating": 6.95969,
 			"comment": "Probably a 7 w/o the expansion components."
 		},
 		{
@@ -4313,7 +4446,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.80548,
+			"bggRating": 5.81926,
 			"comment": ""
 		},
 		{
@@ -4332,7 +4465,7 @@
 				"min": 4,
 				"max": 8
 			},
-			"bggRating": 5.49209,
+			"bggRating": 5.49223,
 			"comment": ""
 		},
 		{
@@ -4351,7 +4484,7 @@
 				"min": 1,
 				"max": 6
 			},
-			"bggRating": 5.68332,
+			"bggRating": 5.68963,
 			"comment": ""
 		},
 		{
@@ -4370,7 +4503,7 @@
 				"min": 3,
 				"max": 6
 			},
-			"bggRating": 5.90786,
+			"bggRating": 5.91381,
 			"comment": ""
 		},
 		{
@@ -4389,7 +4522,7 @@
 				"min": 1,
 				"max": 2
 			},
-			"bggRating": 6.87775,
+			"bggRating": 6.87332,
 			"comment": ""
 		},
 		{
@@ -4408,7 +4541,7 @@
 				"min": 3,
 				"max": 5
 			},
-			"bggRating": 5.6704,
+			"bggRating": 5.66845,
 			"comment": ""
 		},
 		{
@@ -4427,7 +4560,26 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 5.73365,
+			"bggRating": 5.73055,
+			"comment": ""
+		},
+		{
+			"bggId": 385274,
+			"collId": 148026958,
+			"name": "The Last Spell: The Board Game",
+			"yearPublished": 2024,
+			"thumbnailUrl": "https://cf.geekdo-images.com/A5ZwHsssnWpe_L8TA5Me3A__small/img/v2XigVjWmF27unYUVagPf2ybayc=/fit-in/200x150/filters:strip_icc()/pic7458460.png",
+			"imageUrl": "https://cf.geekdo-images.com/A5ZwHsssnWpe_L8TA5Me3A__original/img/hXC0JJRveGAk0vcXZjfMcDZXpsE=/0x0/filters:format(png)/pic7458460.png",
+			"dateAdded": "2026-08-01 17:50:40",
+			"playCount": 0,
+			"lastPlayed": null,
+			"userRating": null,
+			"weight": 0,
+			"playerCount": {
+				"min": 1,
+				"max": 4
+			},
+			"bggRating": 5.52811,
 			"comment": ""
 		},
 		{
@@ -4446,7 +4598,7 @@
 				"min": 1,
 				"max": 6
 			},
-			"bggRating": 6.45904,
+			"bggRating": 6.45221,
 			"comment": ""
 		},
 		{
@@ -4457,15 +4609,15 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/9m6vkOd38D2zpbsowsuD3g__small/img/a4hP-tUX3RSEYn-X6NRDY9dvGr4=/fit-in/200x150/filters:strip_icc()/pic7443398.jpg",
 			"imageUrl": "https://cf.geekdo-images.com/9m6vkOd38D2zpbsowsuD3g__original/img/Z86FbBQiRfKpSjrqY6O0FE0GAEc=/0x0/filters:format(jpeg)/pic7443398.jpg",
 			"dateAdded": "2023-08-29 03:02:14",
-			"playCount": 0,
-			"lastPlayed": null,
+			"playCount": 1,
+			"lastPlayed": "2023-08-29 03:02:14",
 			"userRating": null,
 			"weight": 0,
 			"playerCount": {
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 5.6762,
+			"bggRating": 5.69425,
 			"comment": ""
 		},
 		{
@@ -4476,7 +4628,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/P9MkZZ5iBYSfHJQJVzc5qg__small/img/MIHjNUDb2uMoAyNC3TbhYSQ73B8=/fit-in/200x150/filters:strip_icc()/pic6908381.jpg",
 			"imageUrl": "https://cf.geekdo-images.com/P9MkZZ5iBYSfHJQJVzc5qg__original/img/gVtLyGdbukKeeVpedcZzK0Z-cD4=/0x0/filters:format(jpeg)/pic6908381.jpg",
 			"dateAdded": "2025-03-10 14:10:36",
-			"playCount": 6,
+			"playCount": 7,
 			"lastPlayed": "2025-03-10 14:10:36",
 			"userRating": 9.5,
 			"weight": 0,
@@ -4484,7 +4636,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 6.688,
+			"bggRating": 6.77093,
 			"comment": ""
 		},
 		{
@@ -4503,7 +4655,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 5.76304,
+			"bggRating": 5.78514,
 			"comment": ""
 		},
 		{
@@ -4522,7 +4674,7 @@
 				"min": 1,
 				"max": 2
 			},
-			"bggRating": 7.38505,
+			"bggRating": 7.38408,
 			"comment": ""
 		},
 		{
@@ -4532,16 +4684,16 @@
 			"yearPublished": 2025,
 			"thumbnailUrl": "https://cf.geekdo-images.com/uC4N_3kQdoHefNPesAHCzQ__small/img/hLjGKsIwJP43656LEnehjFVRzDE=/fit-in/200x150/filters:strip_icc()/pic8437787.png",
 			"imageUrl": "https://cf.geekdo-images.com/uC4N_3kQdoHefNPesAHCzQ__original/img/ohKFXmrxtaOPqJyiIMaABIy-WjU=/0x0/filters:format(png)/pic8437787.png",
-			"dateAdded": "2026-01-28 00:35:36",
-			"playCount": 9,
-			"lastPlayed": "2026-01-28 00:35:36",
-			"userRating": 9.1,
+			"dateAdded": "2026-04-03 00:37:15",
+			"playCount": 23,
+			"lastPlayed": "2026-04-03 00:37:15",
+			"userRating": 9.2,
 			"weight": 0,
 			"playerCount": {
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.40506,
+			"bggRating": 7.50176,
 			"comment": ""
 		},
 		{
@@ -4560,7 +4712,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.92154,
+			"bggRating": 6.91987,
 			"comment": ""
 		},
 		{
@@ -4579,7 +4731,7 @@
 				"min": 3,
 				"max": 5
 			},
-			"bggRating": 6.64263,
+			"bggRating": 6.63981,
 			"comment": ""
 		},
 		{
@@ -4598,7 +4750,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.15143,
+			"bggRating": 7.15416,
 			"comment": ""
 		},
 		{
@@ -4617,7 +4769,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.12298,
+			"bggRating": 7.12228,
 			"comment": "Fantastic game!  Fun little game you can play with almost anyone and have a good time."
 		},
 		{
@@ -4628,7 +4780,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/NNOCMpxKchQb_ByLmvDfRQ__small/img/hgZk4xlsFSfbXyMy2Y32dFqXCHM=/fit-in/200x150/filters:strip_icc()/pic8145392.png",
 			"imageUrl": "https://cf.geekdo-images.com/NNOCMpxKchQb_ByLmvDfRQ__original/img/-0mnuZeWP3DNRiw-w6G3fPfNXik=/0x0/filters:format(png)/pic8145392.png",
 			"dateAdded": "2025-09-27 19:44:30",
-			"playCount": 2,
+			"playCount": 3,
 			"lastPlayed": "2025-09-27 19:44:30",
 			"userRating": 8.7,
 			"weight": 0,
@@ -4636,7 +4788,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 6.79498,
+			"bggRating": 6.97984,
 			"comment": ""
 		},
 		{
@@ -4644,10 +4796,10 @@
 			"collId": 136836756,
 			"name": "Luthier",
 			"yearPublished": 2025,
-			"thumbnailUrl": "https://cf.geekdo-images.com/GYEoXRsUoxruwLq_yQj8Pw__small/img/sDfppOA55s-9HdRXSkLt1DBWYHc=/fit-in/200x150/filters:strip_icc()/pic8920684.jpg",
-			"imageUrl": "https://cf.geekdo-images.com/GYEoXRsUoxruwLq_yQj8Pw__original/img/ARZgKpks4Zzlu0TnidA6esL07G0=/0x0/filters:format(jpeg)/pic8920684.jpg",
+			"thumbnailUrl": "https://cf.geekdo-images.com/NNOCMpxKchQb_ByLmvDfRQ__small/img/hgZk4xlsFSfbXyMy2Y32dFqXCHM=/fit-in/200x150/filters:strip_icc()/pic8145392.png",
+			"imageUrl": "https://cf.geekdo-images.com/NNOCMpxKchQb_ByLmvDfRQ__original/img/-0mnuZeWP3DNRiw-w6G3fPfNXik=/0x0/filters:format(png)/pic8145392.png",
 			"dateAdded": "2026-01-28 00:35:39",
-			"playCount": 2,
+			"playCount": 3,
 			"lastPlayed": "2026-01-28 00:35:39",
 			"userRating": 8.1,
 			"weight": 0,
@@ -4655,7 +4807,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 6.79498,
+			"bggRating": 6.97984,
 			"comment": ""
 		},
 		{
@@ -4674,7 +4826,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 7.97119,
+			"bggRating": 7.98261,
 			"comment": ""
 		},
 		{
@@ -4693,7 +4845,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.00651,
+			"bggRating": 6.99841,
 			"comment": ""
 		},
 		{
@@ -4712,7 +4864,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 6.05622,
+			"bggRating": 6.05119,
 			"comment": ""
 		},
 		{
@@ -4731,7 +4883,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 5.4912,
+			"bggRating": 5.49153,
 			"comment": ""
 		},
 		{
@@ -4750,7 +4902,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.84938,
+			"bggRating": 5.84538,
 			"comment": ""
 		},
 		{
@@ -4769,7 +4921,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.78868,
+			"bggRating": 7.78531,
 			"comment": ""
 		},
 		{
@@ -4788,7 +4940,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 6.59037,
+			"bggRating": 6.58186,
 			"comment": ""
 		},
 		{
@@ -4807,7 +4959,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 6.48424,
+			"bggRating": 6.4765,
 			"comment": ""
 		},
 		{
@@ -4826,7 +4978,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 6.25248,
+			"bggRating": 6.24629,
 			"comment": ""
 		},
 		{
@@ -4845,7 +4997,26 @@
 				"min": 2,
 				"max": 13
 			},
-			"bggRating": 6.33053,
+			"bggRating": 6.32767,
+			"comment": ""
+		},
+		{
+			"bggId": 356907,
+			"collId": 148027113,
+			"name": "Mascarade (Second Edition)",
+			"yearPublished": 2021,
+			"thumbnailUrl": "https://cf.geekdo-images.com/WRRQtWATtDSAoVUW1pN_8A__small/img/WsQ2pjvVP_pFeIUe1CyC1elQwVc=/fit-in/200x150/filters:strip_icc()/pic6484232.png",
+			"imageUrl": "https://cf.geekdo-images.com/WRRQtWATtDSAoVUW1pN_8A__original/img/_SiQ3rw1Cw37LB2MUrMpTSQ-XB0=/0x0/filters:format(png)/pic6484232.png",
+			"dateAdded": "2026-08-01 17:54:22",
+			"playCount": 0,
+			"lastPlayed": null,
+			"userRating": null,
+			"weight": 0,
+			"playerCount": {
+				"min": 4,
+				"max": 12
+			},
+			"bggRating": 5.69199,
 			"comment": ""
 		},
 		{
@@ -4864,7 +5035,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.60612,
+			"bggRating": 5.60347,
 			"comment": ""
 		},
 		{
@@ -4883,7 +5054,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.67229,
+			"bggRating": 5.66935,
 			"comment": ""
 		},
 		{
@@ -4902,7 +5073,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.61338,
+			"bggRating": 5.6118,
 			"comment": ""
 		},
 		{
@@ -4921,7 +5092,7 @@
 				"min": 2,
 				"max": 9
 			},
-			"bggRating": 5.44731,
+			"bggRating": 5.44764,
 			"comment": ""
 		},
 		{
@@ -4940,7 +5111,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.07389,
+			"bggRating": 7.06839,
 			"comment": ""
 		},
 		{
@@ -4959,7 +5130,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 6.92756,
+			"bggRating": 6.92374,
 			"comment": ""
 		},
 		{
@@ -4997,7 +5168,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.98042,
+			"bggRating": 6.97611,
 			"comment": ""
 		},
 		{
@@ -5016,7 +5187,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.5953,
+			"bggRating": 6.59008,
 			"comment": ""
 		},
 		{
@@ -5035,7 +5206,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 6.13424,
+			"bggRating": 6.15747,
 			"comment": ""
 		},
 		{
@@ -5054,7 +5225,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 6.21115,
+			"bggRating": 6.23907,
 			"comment": ""
 		},
 		{
@@ -5073,7 +5244,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.0707,
+			"bggRating": 7.068,
 			"comment": ""
 		},
 		{
@@ -5092,7 +5263,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.63587,
+			"bggRating": 5.63512,
 			"comment": ""
 		},
 		{
@@ -5103,7 +5274,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/CQ9o1kqExmBpHcPMVk0qwQ__small/img/5HC7459wxxyXhy4Rtey5h_ZkahI=/fit-in/200x150/filters:strip_icc()/pic7926071.jpg",
 			"imageUrl": "https://cf.geekdo-images.com/CQ9o1kqExmBpHcPMVk0qwQ__original/img/8jK4shZsnCk-UbNYf6zStqQRRYk=/0x0/filters:format(jpeg)/pic7926071.jpg",
 			"dateAdded": "2025-05-31 17:55:57",
-			"playCount": 2,
+			"playCount": 3,
 			"lastPlayed": "2025-05-31 17:55:57",
 			"userRating": 8.6,
 			"weight": 0,
@@ -5111,7 +5282,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.65308,
+			"bggRating": 6.66784,
 			"comment": ""
 		},
 		{
@@ -5130,7 +5301,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 5.55454,
+			"bggRating": 5.55521,
 			"comment": ""
 		},
 		{
@@ -5141,7 +5312,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/wLto-xaabHwKQe_Bc4iD1Q__small/img/AUqMholGVlwXLjMcxwiziE_7Ffw=/fit-in/200x150/filters:strip_icc()/pic3458036.png",
 			"imageUrl": "https://cf.geekdo-images.com/wLto-xaabHwKQe_Bc4iD1Q__original/img/s3Gai8XBTVfWFFlYpL4XF3kIlWU=/0x0/filters:format(png)/pic3458036.png",
 			"dateAdded": "2022-01-02 13:42:55",
-			"playCount": 3,
+			"playCount": 4,
 			"lastPlayed": "2022-01-02 13:42:55",
 			"userRating": 8,
 			"weight": 0,
@@ -5149,7 +5320,7 @@
 				"min": 3,
 				"max": 5
 			},
-			"bggRating": 7.32764,
+			"bggRating": 7.33087,
 			"comment": ""
 		},
 		{
@@ -5168,7 +5339,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.12629,
+			"bggRating": 6.12157,
 			"comment": ""
 		},
 		{
@@ -5187,7 +5358,7 @@
 				"min": 2,
 				"max": 8
 			},
-			"bggRating": 4.29245,
+			"bggRating": 4.2934,
 			"comment": "I know Monopoly is a two minute game of who is the first person to make a favorable trade thusly winning the game very slowly, but I loved it throughout my childhood and that love still shines through when I play it now."
 		},
 		{
@@ -5206,14 +5377,14 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 5.97245,
+			"bggRating": 5.97603,
 			"comment": ""
 		},
 		{
 			"bggId": 361195,
 			"collId": 111146765,
 			"name": "Monster Hunter World: The Board Game – Wildspire Waste",
-			"yearPublished": 2022,
+			"yearPublished": 2023,
 			"thumbnailUrl": "https://cf.geekdo-images.com/4PKoJ0Y5onSh8VfLl60v9w__small/img/5ULk95MJTsir9RaxznFOQ75gfYo=/fit-in/200x150/filters:strip_icc()/pic8690029.jpg",
 			"imageUrl": "https://cf.geekdo-images.com/4PKoJ0Y5onSh8VfLl60v9w__original/img/7ivDNaKIiu3_PpU91WhaMD0G0so=/0x0/filters:format(jpeg)/pic8690029.jpg",
 			"dateAdded": "2023-10-10 20:23:06",
@@ -5225,7 +5396,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 5.64181,
+			"bggRating": 5.64978,
 			"comment": ""
 		},
 		{
@@ -5236,7 +5407,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/KDrRxEKQMmHyM0QQ2ONX4Q__small/img/EusjojuWYxwkxaP7eAnaBn1QzLg=/fit-in/200x150/filters:strip_icc()/pic8638247.jpg",
 			"imageUrl": "https://cf.geekdo-images.com/KDrRxEKQMmHyM0QQ2ONX4Q__original/img/XD-aeaMShk-TN_n0n6O9kbczxNY=/0x0/filters:format(jpeg)/pic8638247.jpg",
 			"dateAdded": "2026-01-28 00:35:54",
-			"playCount": 2,
+			"playCount": 6,
 			"lastPlayed": "2026-01-28 00:35:54",
 			"userRating": 8,
 			"weight": 0,
@@ -5244,7 +5415,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 6.78087,
+			"bggRating": 7.02014,
 			"comment": ""
 		},
 		{
@@ -5263,7 +5434,7 @@
 				"min": 2,
 				"max": 6
 			},
-			"bggRating": 6.22444,
+			"bggRating": 6.22041,
 			"comment": "This is superceded by Song of Blades and Heroes, but I have a ton of fond memories playing this game."
 		},
 		{
@@ -5282,7 +5453,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.40648,
+			"bggRating": 6.43435,
 			"comment": ""
 		},
 		{
@@ -5301,7 +5472,7 @@
 				"min": 2,
 				"max": 6
 			},
-			"bggRating": 6.00932,
+			"bggRating": 6.00483,
 			"comment": ""
 		},
 		{
@@ -5320,7 +5491,7 @@
 				"min": 2,
 				"max": 7
 			},
-			"bggRating": 7.05122,
+			"bggRating": 7.04738,
 			"comment": ""
 		},
 		{
@@ -5339,7 +5510,7 @@
 				"min": 2,
 				"max": 6
 			},
-			"bggRating": 6.51379,
+			"bggRating": 6.51567,
 			"comment": ""
 		},
 		{
@@ -5358,7 +5529,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 5.60892,
+			"bggRating": 5.61681,
 			"comment": ""
 		},
 		{
@@ -5377,7 +5548,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.9644,
+			"bggRating": 6.96085,
 			"comment": ""
 		},
 		{
@@ -5396,7 +5567,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.04344,
+			"bggRating": 6.05595,
 			"comment": ""
 		},
 		{
@@ -5415,7 +5586,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 7.244,
+			"bggRating": 7.23831,
 			"comment": ""
 		},
 		{
@@ -5434,7 +5605,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 7.95121,
+			"bggRating": 7.948,
 			"comment": ""
 		},
 		{
@@ -5453,7 +5624,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 7.51632,
+			"bggRating": 7.51496,
 			"comment": ""
 		},
 		{
@@ -5472,7 +5643,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 6.85246,
+			"bggRating": 7.23866,
 			"comment": ""
 		},
 		{
@@ -5491,7 +5662,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.07546,
+			"bggRating": 7.07153,
 			"comment": ""
 		},
 		{
@@ -5510,7 +5681,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 6.04486,
+			"bggRating": 6.03827,
 			"comment": ""
 		},
 		{
@@ -5529,7 +5700,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 7.26648,
+			"bggRating": 7.2645,
 			"comment": ""
 		},
 		{
@@ -5548,7 +5719,7 @@
 				"min": 3,
 				"max": 7
 			},
-			"bggRating": 6.95499,
+			"bggRating": 6.95426,
 			"comment": ""
 		},
 		{
@@ -5567,7 +5738,7 @@
 				"min": 2,
 				"max": 8
 			},
-			"bggRating": 6.5033,
+			"bggRating": 6.50291,
 			"comment": ""
 		},
 		{
@@ -5586,7 +5757,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.71594,
+			"bggRating": 7.7164,
 			"comment": ""
 		},
 		{
@@ -5605,8 +5776,27 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.5124,
+			"bggRating": 5.51217,
 			"comment": "Really fun!  Great theme, great gameplay, good advances over SBH&#039;s mechanics, which were already fantastic.  It seems as though it is designed to be played w/ more points than are granted by default in the book (so that more mortals are present as more than just batteries,) but I will find out soon."
+		},
+		{
+			"bggId": 357873,
+			"collId": 138709297,
+			"name": "The Old King&#039;s Crown",
+			"yearPublished": 2025,
+			"thumbnailUrl": "https://cf.geekdo-images.com/q3Qp4L-rU3VOW6fMAFUJnQ__small/img/wLX_C6w13ebCON4euesUohQE_Ck=/fit-in/200x150/filters:strip_icc()/pic8937255.jpg",
+			"imageUrl": "https://cf.geekdo-images.com/q3Qp4L-rU3VOW6fMAFUJnQ__original/img/zICTkM9KNDlQ6wZgIMQ2HavR4PE=/0x0/filters:format(jpeg)/pic8937255.jpg",
+			"dateAdded": "2026-03-06 21:09:43",
+			"playCount": 1,
+			"lastPlayed": "2026-03-06 21:09:43",
+			"userRating": 9,
+			"weight": 0,
+			"playerCount": {
+				"min": 1,
+				"max": 4
+			},
+			"bggRating": 6.94816,
+			"comment": ""
 		},
 		{
 			"bggId": 94104,
@@ -5624,7 +5814,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 6.27641,
+			"bggRating": 6.26818,
 			"comment": ""
 		},
 		{
@@ -5643,7 +5833,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.73928,
+			"bggRating": 7.74096,
 			"comment": ""
 		},
 		{
@@ -5662,7 +5852,26 @@
 				"min": 2,
 				"max": 6
 			},
-			"bggRating": 6.12827,
+			"bggRating": 6.12503,
+			"comment": ""
+		},
+		{
+			"bggId": 180956,
+			"collId": 148027119,
+			"name": "One Night Ultimate Vampire",
+			"yearPublished": 2016,
+			"thumbnailUrl": "https://cf.geekdo-images.com/aQUo9__DzqLpb4WldWMw0g__small/img/RODG7e-Z3_SfoEH1l8BS69WqMnM=/fit-in/200x150/filters:strip_icc()/pic2604284.png",
+			"imageUrl": "https://cf.geekdo-images.com/aQUo9__DzqLpb4WldWMw0g__original/img/twJfMEHvgLKihXGkeoOEjjwDVy8=/0x0/filters:format(png)/pic2604284.png",
+			"dateAdded": "2026-08-01 17:54:23",
+			"playCount": 0,
+			"lastPlayed": null,
+			"userRating": null,
+			"weight": 0,
+			"playerCount": {
+				"min": 3,
+				"max": 10
+			},
+			"bggRating": 6.03826,
 			"comment": ""
 		},
 		{
@@ -5681,7 +5890,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 7.85978,
+			"bggRating": 7.85853,
 			"comment": ""
 		},
 		{
@@ -5700,7 +5909,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.04598,
+			"bggRating": 7.04917,
 			"comment": ""
 		},
 		{
@@ -5719,7 +5928,7 @@
 				"min": 2,
 				"max": 8
 			},
-			"bggRating": 5.80859,
+			"bggRating": 5.81493,
 			"comment": ""
 		},
 		{
@@ -5738,7 +5947,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 8.34786,
+			"bggRating": 8.34448,
 			"comment": ""
 		},
 		{
@@ -5757,7 +5966,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.54251,
+			"bggRating": 6.53909,
 			"comment": ""
 		},
 		{
@@ -5776,7 +5985,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.4739,
+			"bggRating": 7.47125,
 			"comment": ""
 		},
 		{
@@ -5795,7 +6004,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 6.30038,
+			"bggRating": 6.31252,
 			"comment": ""
 		},
 		{
@@ -5814,7 +6023,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.76565,
+			"bggRating": 6.76008,
 			"comment": ""
 		},
 		{
@@ -5833,7 +6042,7 @@
 				"min": 3,
 				"max": 6
 			},
-			"bggRating": 6.60081,
+			"bggRating": 6.60195,
 			"comment": ""
 		},
 		{
@@ -5852,7 +6061,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 6.26306,
+			"bggRating": 6.25765,
 			"comment": ""
 		},
 		{
@@ -5871,7 +6080,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.99232,
+			"bggRating": 5.98812,
 			"comment": ""
 		},
 		{
@@ -5890,7 +6099,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.8447,
+			"bggRating": 5.8388,
 			"comment": ""
 		},
 		{
@@ -5909,7 +6118,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.69408,
+			"bggRating": 5.69339,
 			"comment": ""
 		},
 		{
@@ -5928,7 +6137,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.68872,
+			"bggRating": 5.6875,
 			"comment": ""
 		},
 		{
@@ -5947,7 +6156,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 5.82903,
+			"bggRating": 5.82729,
 			"comment": ""
 		},
 		{
@@ -5966,7 +6175,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.54813,
+			"bggRating": 5.54611,
 			"comment": ""
 		},
 		{
@@ -5985,7 +6194,7 @@
 				"min": 2,
 				"max": 10
 			},
-			"bggRating": 6.4596,
+			"bggRating": 6.46536,
 			"comment": ""
 		},
 		{
@@ -6004,7 +6213,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.34451,
+			"bggRating": 6.33702,
 			"comment": ""
 		},
 		{
@@ -6015,7 +6224,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/6DboPjt27DN35KaFjHU2cg__small/img/cm9gkvnDoQX47Qu6iNhGmiEdbOg=/fit-in/200x150/filters:strip_icc()/pic4543705.jpg",
 			"imageUrl": "https://cf.geekdo-images.com/6DboPjt27DN35KaFjHU2cg__original/img/ZwP5GG9pSSSuJgxO4deHgtdKxKY=/0x0/filters:format(jpeg)/pic4543705.jpg",
 			"dateAdded": "2022-07-24 00:57:20",
-			"playCount": 2,
+			"playCount": 3,
 			"lastPlayed": "2022-07-24 00:57:20",
 			"userRating": 8.61,
 			"weight": 0,
@@ -6023,7 +6232,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.70179,
+			"bggRating": 6.6934,
 			"comment": ""
 		},
 		{
@@ -6042,7 +6251,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 6.68697,
+			"bggRating": 6.76275,
 			"comment": ""
 		},
 		{
@@ -6061,7 +6270,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.73098,
+			"bggRating": 5.72973,
 			"comment": ""
 		},
 		{
@@ -6080,7 +6289,7 @@
 				"min": 3,
 				"max": 6
 			},
-			"bggRating": 5.58171,
+			"bggRating": 5.5813,
 			"comment": ""
 		},
 		{
@@ -6099,7 +6308,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.35818,
+			"bggRating": 7.35184,
 			"comment": ""
 		},
 		{
@@ -6118,7 +6327,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 5.98004,
+			"bggRating": 5.97828,
 			"comment": ""
 		},
 		{
@@ -6137,7 +6346,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 6.68351,
+			"bggRating": 6.70054,
 			"comment": ""
 		},
 		{
@@ -6156,7 +6365,7 @@
 				"min": 3,
 				"max": 5
 			},
-			"bggRating": 6.3022,
+			"bggRating": 6.31283,
 			"comment": ""
 		},
 		{
@@ -6175,7 +6384,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.33178,
+			"bggRating": 7.32655,
 			"comment": ""
 		},
 		{
@@ -6194,7 +6403,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.67392,
+			"bggRating": 6.67222,
 			"comment": ""
 		},
 		{
@@ -6213,7 +6422,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 6.93182,
+			"bggRating": 6.95991,
 			"comment": ""
 		},
 		{
@@ -6232,7 +6441,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.3921,
+			"bggRating": 7.38623,
 			"comment": ""
 		},
 		{
@@ -6251,7 +6460,7 @@
 				"min": 5,
 				"max": 10
 			},
-			"bggRating": 7.04195,
+			"bggRating": 7.03723,
 			"comment": ""
 		},
 		{
@@ -6270,7 +6479,7 @@
 				"min": 5,
 				"max": 10
 			},
-			"bggRating": 7.30415,
+			"bggRating": 7.30051,
 			"comment": "This has been my favorite game for several years now.  Although I miss bluffing that you&#039;re lying, there&#039;s something so pure and fun about the resistance that it has really stuck with me.\n\nI can&#039;t recommend it to everyone.  I&#039;m somewhat anti-confrontational in life, but I very much enjoy it in games -- if you don&#039;t enjoy it in games, don&#039;t touch this at all!"
 		},
 		{
@@ -6289,7 +6498,7 @@
 				"min": 3,
 				"max": 6
 			},
-			"bggRating": 6.48453,
+			"bggRating": 6.47738,
 			"comment": ""
 		},
 		{
@@ -6308,7 +6517,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.63093,
+			"bggRating": 6.6267,
 			"comment": ""
 		},
 		{
@@ -6327,7 +6536,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.70041,
+			"bggRating": 6.69834,
 			"comment": ""
 		},
 		{
@@ -6346,7 +6555,7 @@
 				"min": 3,
 				"max": 5
 			},
-			"bggRating": 7.45025,
+			"bggRating": 7.4481,
 			"comment": ""
 		},
 		{
@@ -6365,7 +6574,7 @@
 				"min": 2,
 				"max": 6
 			},
-			"bggRating": 5.46921,
+			"bggRating": 5.47085,
 			"comment": ""
 		},
 		{
@@ -6384,7 +6593,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 7.40505,
+			"bggRating": 7.40052,
 			"comment": ""
 		},
 		{
@@ -6403,14 +6612,14 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.07525,
+			"bggRating": 6.15744,
 			"comment": ""
 		},
 		{
 			"bggId": 811,
 			"collId": 17835285,
 			"name": "Rummikub",
-			"yearPublished": 1977,
+			"yearPublished": 1950,
 			"thumbnailUrl": "https://cf.geekdo-images.com/LeaLDlTTmeN639MfuflcMw__small/img/CSPEyoFAcA3WwtzDekp3Mfepcek=/fit-in/200x150/filters:strip_icc()/pic2286966.jpg",
 			"imageUrl": "https://cf.geekdo-images.com/LeaLDlTTmeN639MfuflcMw__original/img/fusGQFpm4srwqhM8CDlEDzh0NyQ=/0x0/filters:format(jpeg)/pic2286966.jpg",
 			"dateAdded": "2012-12-31 05:50:32",
@@ -6422,7 +6631,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.32954,
+			"bggRating": 6.3379,
 			"comment": ""
 		},
 		{
@@ -6441,7 +6650,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.08033,
+			"bggRating": 7.07443,
 			"comment": ""
 		},
 		{
@@ -6460,7 +6669,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.86561,
+			"bggRating": 5.86212,
 			"comment": ""
 		},
 		{
@@ -6468,8 +6677,8 @@
 			"collId": 21874004,
 			"name": "Saboteur",
 			"yearPublished": 2004,
-			"thumbnailUrl": "https://cf.geekdo-images.com/0vJwP6NGa7GHPZKC3gplUw__small/img/B3j-is62fP09eHP34uFG_gsxNQs=/fit-in/200x150/filters:strip_icc()/pic3989824.jpg",
-			"imageUrl": "https://cf.geekdo-images.com/0vJwP6NGa7GHPZKC3gplUw__original/img/TJDCd-PYySXmhQn-LC-y88JPA7U=/0x0/filters:format(jpeg)/pic3989824.jpg",
+			"thumbnailUrl": "https://cf.geekdo-images.com/oeN-MHAJKsC2KCI3avKj9w__small/img/y8tkP8BdgOoiErg2macZ1JG847Q=/fit-in/200x150/filters:strip_icc()/pic8679622.jpg",
+			"imageUrl": "https://cf.geekdo-images.com/oeN-MHAJKsC2KCI3avKj9w__original/img/TgwkFfJF5IrhjwNm8OVwdn34sJE=/0x0/filters:format(jpeg)/pic8679622.jpg",
 			"dateAdded": "2022-01-02 13:38:46",
 			"playCount": 6,
 			"lastPlayed": "2022-01-02 13:38:46",
@@ -6479,7 +6688,7 @@
 				"min": 3,
 				"max": 10
 			},
-			"bggRating": 6.41283,
+			"bggRating": 6.40931,
 			"comment": ""
 		},
 		{
@@ -6498,7 +6707,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.12623,
+			"bggRating": 6.12001,
 			"comment": ""
 		},
 		{
@@ -6517,7 +6726,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.64658,
+			"bggRating": 5.64743,
 			"comment": ""
 		},
 		{
@@ -6536,7 +6745,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.646,
+			"bggRating": 5.64666,
 			"comment": ""
 		},
 		{
@@ -6555,7 +6764,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 5.70714,
+			"bggRating": 5.70669,
 			"comment": ""
 		},
 		{
@@ -6574,7 +6783,7 @@
 				"min": 1,
 				"max": 7
 			},
-			"bggRating": 6.21895,
+			"bggRating": 6.21252,
 			"comment": ""
 		},
 		{
@@ -6593,7 +6802,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.98619,
+			"bggRating": 6.98079,
 			"comment": ""
 		},
 		{
@@ -6612,7 +6821,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 6.60395,
+			"bggRating": 6.78624,
 			"comment": ""
 		},
 		{
@@ -6631,7 +6840,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.19302,
+			"bggRating": 7.1881,
 			"comment": ""
 		},
 		{
@@ -6650,7 +6859,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 7.58406,
+			"bggRating": 7.57641,
 			"comment": ""
 		},
 		{
@@ -6669,7 +6878,26 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.14682,
+			"bggRating": 7.14056,
+			"comment": ""
+		},
+		{
+			"bggId": 455363,
+			"collId": 146864296,
+			"name": "Secret Societies",
+			"yearPublished": 2026,
+			"thumbnailUrl": "https://cf.geekdo-images.com/-ofbY_lhwOSkOkJahBYv6w__small/img/Pr9JSXSE1X0YWCwn5M_Q6zIPGX0=/fit-in/200x150/filters:strip_icc()/pic9133881.png",
+			"imageUrl": "https://cf.geekdo-images.com/-ofbY_lhwOSkOkJahBYv6w__original/img/iOqh2RpggMLiyUfkddbGoxQ-M6M=/0x0/filters:format(png)/pic9133881.png",
+			"dateAdded": "2026-06-27 16:18:38",
+			"playCount": 0,
+			"lastPlayed": null,
+			"userRating": null,
+			"weight": 0,
+			"playerCount": {
+				"min": 2,
+				"max": 5
+			},
+			"bggRating": 5.63191,
 			"comment": ""
 		},
 		{
@@ -6688,7 +6916,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.31378,
+			"bggRating": 7.30753,
 			"comment": ""
 		},
 		{
@@ -6707,7 +6935,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 6.55474,
+			"bggRating": 6.55459,
 			"comment": ""
 		},
 		{
@@ -6726,7 +6954,7 @@
 				"min": 4,
 				"max": 8
 			},
-			"bggRating": 6.49931,
+			"bggRating": 6.49375,
 			"comment": ""
 		},
 		{
@@ -6764,7 +6992,7 @@
 				"min": 1,
 				"max": 6
 			},
-			"bggRating": 5.72893,
+			"bggRating": 5.76852,
 			"comment": ""
 		},
 		{
@@ -6783,7 +7011,7 @@
 				"min": 3,
 				"max": 5
 			},
-			"bggRating": 6.90901,
+			"bggRating": 6.904,
 			"comment": ""
 		},
 		{
@@ -6802,7 +7030,7 @@
 				"min": 3,
 				"max": 6
 			},
-			"bggRating": 6.51404,
+			"bggRating": 6.52774,
 			"comment": ""
 		},
 		{
@@ -6821,7 +7049,7 @@
 				"min": 1,
 				"max": 8
 			},
-			"bggRating": 7.36479,
+			"bggRating": 7.35876,
 			"comment": ""
 		},
 		{
@@ -6840,7 +7068,7 @@
 				"min": 3,
 				"max": 5
 			},
-			"bggRating": 7.18671,
+			"bggRating": 7.18049,
 			"comment": ""
 		},
 		{
@@ -6859,7 +7087,7 @@
 				"min": 4,
 				"max": 9
 			},
-			"bggRating": 7.09498,
+			"bggRating": 7.09891,
 			"comment": ""
 		},
 		{
@@ -6878,7 +7106,7 @@
 				"min": 4,
 				"max": 9
 			},
-			"bggRating": 7.09498,
+			"bggRating": 7.09891,
 			"comment": ""
 		},
 		{
@@ -6897,7 +7125,26 @@
 				"min": 3,
 				"max": 6
 			},
-			"bggRating": 7.01105,
+			"bggRating": 7.00951,
+			"comment": ""
+		},
+		{
+			"bggId": 373106,
+			"collId": 127120194,
+			"name": "Sky Team",
+			"yearPublished": 2023,
+			"thumbnailUrl": "https://cf.geekdo-images.com/uXMeQzNenHb3zK7Hoa6b2w__small/img/WyPClajMWU9lV5BdCXiZnqdZgmU=/fit-in/200x150/filters:strip_icc()/pic7398904.jpg",
+			"imageUrl": "https://cf.geekdo-images.com/uXMeQzNenHb3zK7Hoa6b2w__original/img/mWOQnkpyYBorh_Y1-0Y2o-ew17k=/0x0/filters:format(jpeg)/pic7398904.jpg",
+			"dateAdded": "2026-03-28 21:35:05",
+			"playCount": 3,
+			"lastPlayed": "2026-03-28 21:35:05",
+			"userRating": null,
+			"weight": 0,
+			"playerCount": {
+				"min": 2,
+				"max": 2
+			},
+			"bggRating": 7.89068,
 			"comment": ""
 		},
 		{
@@ -6916,7 +7163,7 @@
 				"min": 3,
 				"max": 9
 			},
-			"bggRating": 5.53843,
+			"bggRating": 5.53733,
 			"comment": "Fun, a good alternative to Cards Against Humanity."
 		},
 		{
@@ -6927,7 +7174,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/8oipK9-ivkn53h7L5U2Yfg__small/img/cBKt41XFKkdphyqZItit4EIC45k=/fit-in/200x150/filters:strip_icc()/pic6588069.png",
 			"imageUrl": "https://cf.geekdo-images.com/8oipK9-ivkn53h7L5U2Yfg__original/img/KtvdQ2mT4ShhUaJekT9IvuOCvv8=/0x0/filters:format(png)/pic6588069.png",
 			"dateAdded": "2023-10-16 00:18:09",
-			"playCount": 25,
+			"playCount": 28,
 			"lastPlayed": "2023-10-16 00:18:09",
 			"userRating": 8.6,
 			"weight": 0,
@@ -6935,7 +7182,7 @@
 				"min": 3,
 				"max": 6
 			},
-			"bggRating": 7.2387,
+			"bggRating": 7.24765,
 			"comment": ""
 		},
 		{
@@ -6954,7 +7201,7 @@
 				"min": 2,
 				"max": 6
 			},
-			"bggRating": 5.79126,
+			"bggRating": 5.78747,
 			"comment": "This game is a fantastic spiritual successor to Mordheim.  Add in Song of Deeds and Glory and you even get a fairly similar campaign experience, although the simple campaign rules in the book are great on their own."
 		},
 		{
@@ -6973,7 +7220,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.14576,
+			"bggRating": 6.13779,
 			"comment": ""
 		},
 		{
@@ -6992,7 +7239,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 7.32231,
+			"bggRating": 7.32381,
 			"comment": ""
 		},
 		{
@@ -7011,7 +7258,7 @@
 				"min": 4,
 				"max": 8
 			},
-			"bggRating": 6.20073,
+			"bggRating": 6.19554,
 			"comment": ""
 		},
 		{
@@ -7030,7 +7277,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 8.14221,
+			"bggRating": 8.14176,
 			"comment": ""
 		},
 		{
@@ -7049,7 +7296,7 @@
 				"min": 3,
 				"max": 8
 			},
-			"bggRating": 6.59953,
+			"bggRating": 6.59387,
 			"comment": ""
 		},
 		{
@@ -7068,7 +7315,7 @@
 				"min": 2,
 				"max": 8
 			},
-			"bggRating": 5.60119,
+			"bggRating": 5.59918,
 			"comment": ""
 		},
 		{
@@ -7087,7 +7334,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.40141,
+			"bggRating": 7.39824,
 			"comment": ""
 		},
 		{
@@ -7106,7 +7353,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.25568,
+			"bggRating": 7.24858,
 			"comment": ""
 		},
 		{
@@ -7125,7 +7372,7 @@
 				"min": 2,
 				"max": 99
 			},
-			"bggRating": 6.19451,
+			"bggRating": 6.18375,
 			"comment": ""
 		},
 		{
@@ -7144,7 +7391,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 5.67906,
+			"bggRating": 5.67891,
 			"comment": ""
 		},
 		{
@@ -7163,7 +7410,7 @@
 				"min": 2,
 				"max": 99
 			},
-			"bggRating": 5.74691,
+			"bggRating": 5.74455,
 			"comment": ""
 		},
 		{
@@ -7174,7 +7421,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/eUiju5SqZbkNt8gnEofrTw__small/img/zNkmLNyeXJGOY24FeAAf4U67ejU=/fit-in/200x150/filters:strip_icc()/pic6035127.png",
 			"imageUrl": "https://cf.geekdo-images.com/eUiju5SqZbkNt8gnEofrTw__original/img/Pq-vuK7-kGMs_pcZdFIeldHNLlU=/0x0/filters:format(png)/pic6035127.png",
 			"dateAdded": "2025-12-14 03:23:51",
-			"playCount": 5,
+			"playCount": 6,
 			"lastPlayed": "2025-12-14 03:23:51",
 			"userRating": 9.2,
 			"weight": 0,
@@ -7182,7 +7429,7 @@
 				"min": 1,
 				"max": 9
 			},
-			"bggRating": 6.76621,
+			"bggRating": 6.77798,
 			"comment": ""
 		},
 		{
@@ -7193,7 +7440,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/eUiju5SqZbkNt8gnEofrTw__small/img/zNkmLNyeXJGOY24FeAAf4U67ejU=/fit-in/200x150/filters:strip_icc()/pic6035127.png",
 			"imageUrl": "https://cf.geekdo-images.com/eUiju5SqZbkNt8gnEofrTw__original/img/Pq-vuK7-kGMs_pcZdFIeldHNLlU=/0x0/filters:format(png)/pic6035127.png",
 			"dateAdded": "2025-11-27 00:09:42",
-			"playCount": 5,
+			"playCount": 6,
 			"lastPlayed": "2025-11-27 00:09:42",
 			"userRating": null,
 			"weight": 0,
@@ -7201,7 +7448,7 @@
 				"min": 1,
 				"max": 9
 			},
-			"bggRating": 6.76621,
+			"bggRating": 6.77798,
 			"comment": ""
 		},
 		{
@@ -7220,7 +7467,7 @@
 				"min": 3,
 				"max": 6
 			},
-			"bggRating": 7.15866,
+			"bggRating": 7.15323,
 			"comment": ""
 		},
 		{
@@ -7239,7 +7486,7 @@
 				"min": 3,
 				"max": 6
 			},
-			"bggRating": 6.65626,
+			"bggRating": 6.66054,
 			"comment": ""
 		},
 		{
@@ -7258,7 +7505,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.27969,
+			"bggRating": 7.27501,
 			"comment": ""
 		},
 		{
@@ -7277,7 +7524,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.73917,
+			"bggRating": 6.73334,
 			"comment": ""
 		},
 		{
@@ -7296,7 +7543,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.13986,
+			"bggRating": 7.14183,
 			"comment": ""
 		},
 		{
@@ -7315,7 +7562,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.56782,
+			"bggRating": 6.55741,
 			"comment": ""
 		},
 		{
@@ -7334,7 +7581,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.51505,
+			"bggRating": 6.50383,
 			"comment": ""
 		},
 		{
@@ -7353,7 +7600,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.08855,
+			"bggRating": 7.08105,
 			"comment": "Elements of Magic, Chess, and a wargame put together in a way I really like.  Fast, too."
 		},
 		{
@@ -7372,7 +7619,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.54192,
+			"bggRating": 6.53229,
 			"comment": ""
 		},
 		{
@@ -7410,7 +7657,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.11216,
+			"bggRating": 7.10826,
 			"comment": ""
 		},
 		{
@@ -7429,7 +7676,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.87129,
+			"bggRating": 6.86727,
 			"comment": ""
 		},
 		{
@@ -7448,7 +7695,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 5.8062,
+			"bggRating": 5.80379,
 			"comment": ""
 		},
 		{
@@ -7467,7 +7714,7 @@
 				"min": 2,
 				"max": 6
 			},
-			"bggRating": 5.97345,
+			"bggRating": 5.97629,
 			"comment": ""
 		},
 		{
@@ -7486,7 +7733,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.40382,
+			"bggRating": 7.39955,
 			"comment": ""
 		},
 		{
@@ -7505,7 +7752,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 5.70387,
+			"bggRating": 5.70249,
 			"comment": ""
 		},
 		{
@@ -7524,7 +7771,7 @@
 				"min": 2,
 				"max": 8
 			},
-			"bggRating": 5.73266,
+			"bggRating": 5.74814,
 			"comment": ""
 		},
 		{
@@ -7540,10 +7787,10 @@
 			"userRating": 6.8,
 			"weight": 0,
 			"playerCount": {
-				"min": 4,
-				"max": 4
+				"min": 3,
+				"max": 10
 			},
-			"bggRating": 7.27618,
+			"bggRating": 7.27441,
 			"comment": ""
 		},
 		{
@@ -7562,7 +7809,7 @@
 				"min": 3,
 				"max": 4
 			},
-			"bggRating": 5.64163,
+			"bggRating": 5.63925,
 			"comment": ""
 		},
 		{
@@ -7581,7 +7828,7 @@
 				"min": 2,
 				"max": 8
 			},
-			"bggRating": 6.30655,
+			"bggRating": 6.30277,
 			"comment": ""
 		},
 		{
@@ -7589,8 +7836,8 @@
 			"collId": 24282650,
 			"name": "Timeline: Events",
 			"yearPublished": 2011,
-			"thumbnailUrl": "https://cf.geekdo-images.com/V-LCKnzAZvzdim9_PMPGpw__small/img/nzjHPY6A8sqP_cv1JY3ENCD6z9E=/fit-in/200x150/filters:strip_icc()/pic5872050.jpg",
-			"imageUrl": "https://cf.geekdo-images.com/V-LCKnzAZvzdim9_PMPGpw__original/img/nj33ZARrJI6yCp9kTZC911kh7A4=/0x0/filters:format(jpeg)/pic5872050.jpg",
+			"thumbnailUrl": "https://cf.geekdo-images.com/LrDQfaK6qmBUvZopYW0qig__small/img/lElmJFHhrhCkM6UtmSwSEIp0l4k=/fit-in/200x150/filters:strip_icc()/pic6033229.jpg",
+			"imageUrl": "https://cf.geekdo-images.com/LrDQfaK6qmBUvZopYW0qig__original/img/kcQswr81bli9JcTOWVv0FGs64b0=/0x0/filters:format(jpeg)/pic6033229.jpg",
 			"dateAdded": "2014-08-13 01:24:24",
 			"playCount": 0,
 			"lastPlayed": null,
@@ -7600,7 +7847,7 @@
 				"min": 2,
 				"max": 8
 			},
-			"bggRating": 6.35215,
+			"bggRating": 6.34684,
 			"comment": ""
 		},
 		{
@@ -7619,7 +7866,7 @@
 				"min": 2,
 				"max": 8
 			},
-			"bggRating": 6.41305,
+			"bggRating": 6.40963,
 			"comment": ""
 		},
 		{
@@ -7638,7 +7885,7 @@
 				"min": 2,
 				"max": 8
 			},
-			"bggRating": 6.24833,
+			"bggRating": 6.24396,
 			"comment": ""
 		},
 		{
@@ -7657,7 +7904,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.76118,
+			"bggRating": 6.75559,
 			"comment": ""
 		},
 		{
@@ -7676,7 +7923,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.37297,
+			"bggRating": 6.36436,
 			"comment": ""
 		},
 		{
@@ -7695,7 +7942,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 5.71132,
+			"bggRating": 5.87701,
 			"comment": ""
 		},
 		{
@@ -7714,7 +7961,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.53744,
+			"bggRating": 7.53692,
 			"comment": ""
 		},
 		{
@@ -7733,7 +7980,7 @@
 				"min": 2,
 				"max": 8
 			},
-			"bggRating": 6.53502,
+			"bggRating": 6.53274,
 			"comment": ""
 		},
 		{
@@ -7752,7 +7999,7 @@
 				"min": 3,
 				"max": 6
 			},
-			"bggRating": 8.21905,
+			"bggRating": 8.21732,
 			"comment": ""
 		},
 		{
@@ -7771,7 +8018,7 @@
 				"min": 1,
 				"max": 8
 			},
-			"bggRating": 6.77472,
+			"bggRating": 6.7783,
 			"comment": ""
 		},
 		{
@@ -7790,7 +8037,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 8.04183,
+			"bggRating": 8.03726,
 			"comment": ""
 		},
 		{
@@ -7801,7 +8048,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/AimiZxRxC0DliWw_5XCMUQ__small/img/GjO1yB9b4RsNtoAzfFVoDBcIz84=/fit-in/200x150/filters:strip_icc()/pic1818526.jpg",
 			"imageUrl": "https://cf.geekdo-images.com/AimiZxRxC0DliWw_5XCMUQ__original/img/uz8atz6BI7Gdove5wG61vVqyJr4=/0x0/filters:format(jpeg)/pic1818526.jpg",
 			"dateAdded": "2015-08-17 19:38:20",
-			"playCount": 17,
+			"playCount": 19,
 			"lastPlayed": "2015-08-17 19:38:20",
 			"userRating": 8.5,
 			"weight": 0,
@@ -7809,7 +8056,7 @@
 				"min": 6,
 				"max": 30
 			},
-			"bggRating": 6.54435,
+			"bggRating": 6.54302,
 			"comment": "Far and away the best game I have played that involves more than 10 players at a time!  Truly fun stuff."
 		},
 		{
@@ -7828,7 +8075,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.41838,
+			"bggRating": 7.41677,
 			"comment": ""
 		},
 		{
@@ -7847,7 +8094,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 7.68408,
+			"bggRating": 7.68066,
 			"comment": ""
 		},
 		{
@@ -7858,7 +8105,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/zwAQWL7YfL8kC5Bgp67soQ__small/img/nn8Xk_9S1VdsWH3LveyISgY4TtM=/fit-in/200x150/filters:strip_icc()/pic6378170.jpg",
 			"imageUrl": "https://cf.geekdo-images.com/zwAQWL7YfL8kC5Bgp67soQ__original/img/EFELpTEE1l-Vn_5ZqYSS5jmMxlc=/0x0/filters:format(jpeg)/pic6378170.jpg",
 			"dateAdded": "2022-06-03 22:51:21",
-			"playCount": 4,
+			"playCount": 5,
 			"lastPlayed": "2022-06-03 22:51:21",
 			"userRating": 8.3,
 			"weight": 0,
@@ -7866,7 +8113,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.21163,
+			"bggRating": 7.2267,
 			"comment": ""
 		},
 		{
@@ -7885,7 +8132,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.17762,
+			"bggRating": 7.20333,
 			"comment": ""
 		},
 		{
@@ -7896,7 +8143,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/_kZDRdv3tONk9vTcA_OwSA__small/img/_8WyQKScotYGRBbKT1ypXnH2YiA=/fit-in/200x150/filters:strip_icc()/pic8317346.png",
 			"imageUrl": "https://cf.geekdo-images.com/_kZDRdv3tONk9vTcA_OwSA__original/img/oEyl7gbuPch1ZM8H8e47XEOb_rs=/0x0/filters:format(png)/pic8317346.png",
 			"dateAdded": "2021-09-20 10:49:37",
-			"playCount": 2,
+			"playCount": 3,
 			"lastPlayed": "2021-09-20 10:49:37",
 			"userRating": 8.5,
 			"weight": 0,
@@ -7904,7 +8151,26 @@
 				"min": 3,
 				"max": 6
 			},
-			"bggRating": 6.90756,
+			"bggRating": 6.90992,
+			"comment": ""
+		},
+		{
+			"bggId": 385529,
+			"collId": 116990043,
+			"name": "The Vale of Eternity",
+			"yearPublished": 2023,
+			"thumbnailUrl": "https://cf.geekdo-images.com/yWwckUmFXuGXxp41-vFaVQ__small/img/ilHQqYcV-QqEkCF3GZ2XffcusrQ=/fit-in/200x150/filters:strip_icc()/pic7461472.png",
+			"imageUrl": "https://cf.geekdo-images.com/yWwckUmFXuGXxp41-vFaVQ__original/img/FHotXyNFHc3pC2fcu5i8HjrVis4=/0x0/filters:format(png)/pic7461472.png",
+			"dateAdded": "2026-08-01 17:54:19",
+			"playCount": 1,
+			"lastPlayed": "2026-08-01 17:54:19",
+			"userRating": 7.5,
+			"weight": 0,
+			"playerCount": {
+				"min": 2,
+				"max": 4
+			},
+			"bggRating": 7.15618,
 			"comment": ""
 		},
 		{
@@ -7923,7 +8189,7 @@
 				"min": 1,
 				"max": 6
 			},
-			"bggRating": 6.19944,
+			"bggRating": 6.19391,
 			"comment": ""
 		},
 		{
@@ -7942,7 +8208,7 @@
 				"min": 4,
 				"max": 32
 			},
-			"bggRating": 5.53664,
+			"bggRating": 5.53777,
 			"comment": ""
 		},
 		{
@@ -7961,7 +8227,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 5.79868,
+			"bggRating": 5.79357,
 			"comment": ""
 		},
 		{
@@ -7980,7 +8246,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 6.39719,
+			"bggRating": 6.39259,
 			"comment": ""
 		},
 		{
@@ -7991,7 +8257,7 @@
 			"thumbnailUrl": "https://cf.geekdo-images.com/hItZjdDTNuaCZ7fEztwcUQ__small/img/Ov6eWR87PZ2O1XYQtXMO6KvfzOg=/fit-in/200x150/filters:strip_icc()/pic6153324.jpg",
 			"imageUrl": "https://cf.geekdo-images.com/hItZjdDTNuaCZ7fEztwcUQ__original/img/gIhusTrYRr_2JQGEv0zuSgLtuUo=/0x0/filters:format(jpeg)/pic6153324.jpg",
 			"dateAdded": "2025-08-20 15:35:47",
-			"playCount": 6,
+			"playCount": 7,
 			"lastPlayed": "2025-08-20 15:35:47",
 			"userRating": 8.5,
 			"weight": 0,
@@ -7999,7 +8265,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.627,
+			"bggRating": 7.66112,
 			"comment": ""
 		},
 		{
@@ -8018,7 +8284,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 8.19693,
+			"bggRating": 8.20067,
 			"comment": ""
 		},
 		{
@@ -8037,7 +8303,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 6.70199,
+			"bggRating": 6.70249,
 			"comment": ""
 		},
 		{
@@ -8056,7 +8322,7 @@
 				"min": 2,
 				"max": 12
 			},
-			"bggRating": 5.85627,
+			"bggRating": 5.85157,
 			"comment": ""
 		},
 		{
@@ -8075,7 +8341,7 @@
 				"min": 2,
 				"max": 6
 			},
-			"bggRating": 5.92873,
+			"bggRating": 5.92381,
 			"comment": "Oh, 40k.  Why did you have to be so fun for a little while, 40k?  Why did I need 5000 points of Space Marines?  Why did I need 4000 points of Chaos?  At least the demons make sense to use in other games."
 		},
 		{
@@ -8094,7 +8360,7 @@
 				"min": 2,
 				"max": 2
 			},
-			"bggRating": 7.38373,
+			"bggRating": 7.37594,
 			"comment": ""
 		},
 		{
@@ -8113,7 +8379,7 @@
 				"min": 2,
 				"max": 12
 			},
-			"bggRating": 6.97441,
+			"bggRating": 6.97348,
 			"comment": ""
 		},
 		{
@@ -8132,7 +8398,7 @@
 				"min": 4,
 				"max": 10
 			},
-			"bggRating": 6.65076,
+			"bggRating": 6.65148,
 			"comment": ""
 		},
 		{
@@ -8151,7 +8417,7 @@
 				"min": 3,
 				"max": 5
 			},
-			"bggRating": 5.43503,
+			"bggRating": 5.43687,
 			"comment": ""
 		},
 		{
@@ -8170,7 +8436,26 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 7.67812,
+			"bggRating": 7.69373,
+			"comment": ""
+		},
+		{
+			"bggId": 366161,
+			"collId": 125920082,
+			"name": "Wingspan Asia",
+			"yearPublished": 2022,
+			"thumbnailUrl": "https://cf.geekdo-images.com/h1dRxq4lNMpuSUSGdgCmfA__small/img/hPsEFlgh0b_JhtQmsJQv3vmq814=/fit-in/200x150/filters:strip_icc()/pic7107431.jpg",
+			"imageUrl": "https://cf.geekdo-images.com/h1dRxq4lNMpuSUSGdgCmfA__original/img/MSX7waTxS81SiyxAmmCJFFWAl1I=/0x0/filters:format(jpeg)/pic7107431.jpg",
+			"dateAdded": "2026-08-01 17:54:19",
+			"playCount": 0,
+			"lastPlayed": null,
+			"userRating": null,
+			"weight": 0,
+			"playerCount": {
+				"min": 1,
+				"max": 2
+			},
+			"bggRating": 7.63813,
 			"comment": ""
 		},
 		{
@@ -8189,7 +8474,7 @@
 				"min": 3,
 				"max": 7
 			},
-			"bggRating": 6.72959,
+			"bggRating": 6.7284,
 			"comment": ""
 		},
 		{
@@ -8208,7 +8493,26 @@
 				"min": 1,
 				"max": 4
 			},
-			"bggRating": 6.97339,
+			"bggRating": 6.97098,
+			"comment": ""
+		},
+		{
+			"bggId": 403150,
+			"collId": 147519508,
+			"name": "World Order",
+			"yearPublished": 2026,
+			"thumbnailUrl": "https://cf.geekdo-images.com/sE0K_85H5PmIBa2RWvmTwA__small/img/hAqsFOmwfQGE1eoDgH0qePwigvo=/fit-in/200x150/filters:strip_icc()/pic9162146.jpg",
+			"imageUrl": "https://cf.geekdo-images.com/sE0K_85H5PmIBa2RWvmTwA__original/img/IEDwR8EstLVq3-qYBuAf7ZP2vCI=/0x0/filters:format(jpeg)/pic9162146.jpg",
+			"dateAdded": "2026-07-18 14:38:10",
+			"playCount": 0,
+			"lastPlayed": null,
+			"userRating": null,
+			"weight": 0,
+			"playerCount": {
+				"min": 2,
+				"max": 4
+			},
+			"bggRating": 6.44939,
 			"comment": ""
 		},
 		{
@@ -8227,7 +8531,7 @@
 				"min": 1,
 				"max": 2
 			},
-			"bggRating": 5.71907,
+			"bggRating": 5.7193,
 			"comment": ""
 		},
 		{
@@ -8246,7 +8550,7 @@
 				"min": 1,
 				"max": 5
 			},
-			"bggRating": 7.52757,
+			"bggRating": 7.53432,
 			"comment": ""
 		},
 		{
@@ -8265,7 +8569,7 @@
 				"min": 3,
 				"max": 5
 			},
-			"bggRating": 7.36692,
+			"bggRating": 7.3639,
 			"comment": ""
 		},
 		{
@@ -8284,7 +8588,7 @@
 				"min": 2,
 				"max": 10
 			},
-			"bggRating": 5.4916,
+			"bggRating": 5.50087,
 			"comment": ""
 		},
 		{
@@ -8303,7 +8607,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.60521,
+			"bggRating": 6.59842,
 			"comment": ""
 		},
 		{
@@ -8322,7 +8626,7 @@
 				"min": 2,
 				"max": 4
 			},
-			"bggRating": 5.62487,
+			"bggRating": 5.62919,
 			"comment": ""
 		},
 		{
@@ -8341,7 +8645,7 @@
 				"min": 2,
 				"max": 5
 			},
-			"bggRating": 6.58802,
+			"bggRating": 6.58373,
 			"comment": ""
 		}
 	]

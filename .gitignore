@@ -22,7 +22,8 @@ Thumbs.db
 /data/credentials.enc
 /data/pending-writes
 /data/completed-writes
-# Keep decisions.json and collection-cache.json tracked (portable DB)
+/data/decisions.json
+# Keep collection-cache.json tracked (portable DB)
 /data/shelf-images
 /data/shelf-photos.json
 /data/shelf-games.json
