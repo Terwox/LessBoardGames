@@ -69,3 +69,8 @@ __pycache__/
 
 # OMX local runtime artifacts
 .omx/
+
+# OMC local runtime artifacts
+.omc/*
+!.omc/skills/
+!.omc/skills/**
